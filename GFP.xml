@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<GeekFlashPacket>
+
+
+    <!--
+    PacketInfo
+    Publisher : 发布者署名
+    PublishDate : 发布的UTC时间戳(毫秒)
+    PublishVersion : 发布版本号 [eg 1.0.1 , 6.11.1231]
+    Tip : 包说明
+    -->
+    <PacketInfo Publisher="Jackson" PublishDate="1750983396924" PublishVersion="0.1.0"
+        Tip="测试版本" />
+
+
+    <!--
+    Brand
+    Name : 显示的名称
+    -->
+    <BrandList>
+        <Brand Name="小米" />
+        <Brand Name="一加" />
+        <Brand Name="魅族" />
+    </BrandList>
+
+
+    <!--
+    Series
+		Brand : 归属的品牌的Name
+		Name : 系列名称
+    Model 
+		Name : 设备名称
+		Storage : 存储类型 [Auto,UFS,EMMC,SPINOR]
+		Auth : 授权方案 [None,Xiaomi,Oneplus1,Oneplus2,Oneplus3,OplusNew,Nothing]
+		Loader : 引导路径 [ZIP里的路径.如:/红米/K/K40/prog_ufs_firehose_sm8250_ddr_5.elf]
+		Digest : Digest [可选,ZIP里的路径]
+		Description : 机型描述 [可选]
+    -->
+    <ModelList>
+    <!-- 小米 -->
+        <Series Brand="小米" Name="小米数字系列">
+            <Model Name="小米6" Storage="UFS" Auth="None"
+				Loader="/Xiaomi/Xiaomi6_devprg" Digest=""
+                Description="" />
+            <Model Name="小米8" Storage="UFS" Auth="Xiaomi"
+                Loader="/Xiaomi/845_devprg" Digest=""
+                Description="" />
+        </Series>
+        <Series Brand="小米" Name="小米MIX系列">
+            <Model Name="小米MIX2S" Storage="UFS" Auth="Xiaomi"
+                Loader="/Xiaomi/845_devprg" Digest=""
+                Description="" />
+        </Series>
+        <Series Brand="小米" Name="POCO系列">
+            <Model Name="POCOF1" Storage="UFS" Auth="Xiaomi"
+                Loader="/Xiaomi/845_devprg" Digest=""
+                Description="" />
+        </Series>
+        <Series Brand="小米" Name="红米Note系列">
+            <Model Name="红米Note1LTE" Storage="EMMC" Auth="None"
+                Loader="/Xiaomi/RedmiNote1LTE_devprg" Digest=""
+                Description="" />
+        </Series>
+    <!-- 魅族 -->
+        <Series Brand="魅族" Name="魅族数字系列">
+            <Model Name="魅族20Pro" Storage="UFS" Auth="None"
+                Loader="/Meizu/Meizu20Pro_devprg" Digest=""
+                Description="" />
+        </Series>
+    <!-- 一加 -->
+        <Series Brand="一加" Name="一加数字系列">
+            <Model Name="一加6" Storage="UFS" Auth="None"
+                Loader="/OnePlus/OnePlus6_devprg" Digest=""
+                Description="" />
+            <Model Name="一加6-测试授权" Storage="UFS" Auth="Oneplus1"
+                Loader="/OnePlus/OnePlus6_AuthTest_devprg" Digest=""
+                Description="" />
+        </Series>
+    </ModelList>
+
+
+</GeekFlashPacket>
