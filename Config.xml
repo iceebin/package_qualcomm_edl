@@ -21,6 +21,7 @@
         <Brand Name="小米" />
         <Brand Name="一加" />
         <Brand Name="魅族" />
+        <Brand Name="步步高" />
     </BrandList>
 
 
@@ -75,6 +76,12 @@
             <Model Name="一加6-测试授权" Storage="UFS" Auth="Oneplus1"
                 Loader="/OnePlus/OnePlus6_AuthTest_devprg" Digest=""
                 Description="" />
+        </Series>
+    <!-- 步步高 -->
+        <Series Brand="步步高" Name="步步高家教机">
+            <Model Name="S5" Storage="EMMC" Auth="None"
+                Loader="/BBK/S5_devprg" Digest=""
+                Description="骁龙660公版机" />
         </Series>
     </ModelList>
 
