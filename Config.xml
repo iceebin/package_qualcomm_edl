@@ -19,6 +19,7 @@
     -->
     <BrandList>
         <Brand Name="小米" />
+        <Brand Name="华为荣耀" />
         <Brand Name="一加" />
         <Brand Name="魅族" />
         <Brand Name="步步高" />
@@ -60,6 +61,12 @@
         <Series Brand="小米" Name="红米Note系列">
             <Model Name="红米Note1LTE" Storage="EMMC" Auth="None"
                 Loader="/Xiaomi/RedmiNote1LTE_devprg" Digest=""
+                Description="" />
+        </Series>
+    <!-- 华为荣耀 -->
+        <Series Brand="华为荣耀" Name="荣耀畅玩平板系列">
+            <Model Name="荣耀畅玩平板2" Storage="EMMC" Auth="None"
+                Loader="/Huawei/HonorPlay8C_devprg" Digest=""
                 Description="" />
         </Series>
     <!-- 魅族 -->
