@@ -64,8 +64,8 @@
                 Description="" />
         </Series>
     <!-- 华为荣耀 -->
-        <Series Brand="华为荣耀" Name="荣耀畅玩平板系列">
-            <Model Name="荣耀畅玩平板2" Storage="EMMC" Auth="None"
+        <Series Brand="华为荣耀" Name="荣耀畅玩系列">
+            <Model Name="荣耀畅玩8C" Storage="EMMC" Auth="None"
                 Loader="/Huawei/HonorPlay8C_devprg" Digest=""
                 Description="" />
         </Series>
