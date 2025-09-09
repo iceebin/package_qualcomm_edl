@@ -55,6 +55,15 @@
       <Model Name="一加6" Storage="UFS" Auth="None" Loader="/OnePlus/OnePlus6_devprg" Digest="" Description="" />
       <Model Name="一加6-测试授权" Storage="UFS" Auth="Oneplus1" Loader="/OnePlus/OnePlus6_AuthTest_devprg" Digest="" Description="" />
     </Series>
+    <Series Name="一加Nord系列">
+      <Model Name="一加NordN200" Storage="UFS" Auth="None" Loader="/OnePlus/OnePlusNordN200_devprg" Digest="" Description="sm4350" />
+    </Series>
+  </Brand>
+  <!-- vivo -->
+  <Brand Name="vivo">
+    <Series Name="vivo Z系列">
+      <Model Name="vivo Z1" Storage="EMMC" Auth="None" Loader="/vivo/vivoZ1_devprg" Digest="" Description="骁龙660" />
+    </Series>
   </Brand>
   <!-- 步步高 -->
   <Brand Name="步步高">
