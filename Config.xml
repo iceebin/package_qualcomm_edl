@@ -6,8 +6,9 @@
     PublishDate : 发布的UTC时间戳(毫秒)
     PublishVersion : 发布版本号 [eg 1.0.1 , 6.11.1231]
     Tip : 包说明
+    Type: 包类型 [MTK，QC]
     -->
-  <PacketInfo Publisher="Jackson" PublishDate="1757057202184" PublishVersion="1.0.0" Tip="无" />
+  <PacketInfo Publisher="Jackson" PublishDate="1757420406939" PublishVersion="1.0.0" Tip="无" Type="QC" />
   <!--
     Series
 		Brand : 归属的品牌的Name
