@@ -243,6 +243,25 @@
       <Model Name="拯救者Y90" Storage="UFS" Auth="None" Loader="/Lenovo/Legion_Y90_devprg" Digest="" Description="L71061" />
     </Series>
   </Brand>
+  <!-- LG -->
+  <Brand Name="LG">
+    <Series Name="LG系列">
+      <Model Name="LG G6" Storage="UFS" Auth="None" Loader="/LG/LGG6_devprg" Digest="" Description="" />
+      <Model Name="LG G6 H872" Storage="UFS" Auth="None" Loader="/LG/LGG6-H872_devprg" Digest="" Description="" />
+      <Model Name="LG G7" Storage="UFS" Auth="None" Loader="/LG/LGCommon_845_devprg" Digest="" Description="" />
+      <Model Name="LG G8" Storage="UFS" Auth="None" Loader="/LG/LGCommon_855_devprg" Digest="" Description="" />
+      <Model Name="LG G8X" Storage="UFS" Auth="None" Loader="/LG/LGCommon_855_devprg" Digest="" Description="" />
+      <Model Name="LG V30" Storage="UFS" Auth="None" Loader="/LG/LGCommon_835_devprg" Digest="" Description="" />
+      <Model Name="LG V35" Storage="UFS" Auth="None" Loader="/LG/LGCommon_845_devprg" Digest="" Description="" />
+      <Model Name="LG V40" Storage="UFS" Auth="None" Loader="/LG/LGCommon_845_devprg" Digest="" Description="" />
+      <Model Name="LG V50" Storage="UFS" Auth="None" Loader="/LG/LGCommon_855_devprg" Digest="" Description="" />
+      <Model Name="LG V50S" Storage="UFS" Auth="None" Loader="/LG/LGCommon_855_devprg" Digest="" Description="" />
+      <Model Name="LG V60" Storage="UFS" Auth="None" Loader="/LG/LGCommon_865_devprg" Digest="" Description="" />
+      <Model Name="LG Velvet" Storage="UFS" Auth="None" Loader="/LG/LGCommon_765G_devprg" Digest="" Description="" />
+      <Model Name="LG Wing" Storage="UFS" Auth="None" Loader="/LG/LGCommon_765G_devprg" Digest="" Description="" />
+      <Model Name="LG Q92" Storage="UFS" Auth="None" Loader="/LG/LGCommon_765G_devprg" Digest="" Description="" />
+    </Series>
+  </Brand>
   <!-- 步步高 -->
   <Brand Name="步步高">
     <Series Name="步步高家教机">
