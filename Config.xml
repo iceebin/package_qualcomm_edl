@@ -186,10 +186,25 @@
       <Model Name="努比亚红魔(NX609J)" Storage="UFS" Auth="None" Loader="/ZTE/Nubia_RedMagic_devprg" Digest="" Description="骁龙835" />
     </Series>
   </Brand>
+  <!-- 黑鲨 -->
+  <Brand Name="黑鲨">
+    <Series Name="黑鲨全系">
+      <Model Name="黑鲨4" Storage="UFS" Auth="Xiaomi" Loader="/BlackShark/BlackShark4_devprg" Digest="" Description="" />
+      <Model Name="黑鲨4S" Storage="UFS" Auth="Xiaomi" Loader="/BlackShark/BlackShark4_devprg" Digest="" Description="" />
+      <Model Name="黑鲨5" Storage="UFS" Auth="Xiaomi" Loader="/BlackShark/BlackShark4_devprg" Digest="" Description="" />
+    </Series>
+  </Brand>
+  <!-- 华硕ROG -->
+  <Brand Name="华硕ROG">
+    <Series Name="ROG">
+      <Model Name="ROG2" Storage="UFS" Auth="None" Loader="/ROG/ROG2_devprg" Digest="" Description="" />
+    </Series>
+  </Brand>
   <!-- 步步高 -->
   <Brand Name="步步高">
     <Series Name="步步高家教机">
       <Model Name="S5" Storage="EMMC" Auth="None" Loader="/BBK/S5_devprg" Digest="" Description="骁龙660公版机" />
+      <Model Name="S6" Storage="UFS" Auth="None" Loader="/BBK/S6_devprg" Digest="" Description="" />
     </Series>
   </Brand>
   <!-- 小天才 -->
