@@ -22,7 +22,7 @@
 		Description : 机型描述 [可选]
     -->
   <!-- 小米 -->
-  <Brand Name="小米">
+  <Brand Name="小米红米">
     <Series Name="通用">
       <Model Name="439全系" Storage="EMMC" Auth="Xiaomi" Loader="/Xiaomi/XiaomiCommon439_devprg" Digest="" Description="" />
       <Model Name="625全系" Storage="EMMC" Auth="Xiaomi" Loader="/Xiaomi/XiaomiCommon625_devprg" Digest="" Description="" />
@@ -60,7 +60,33 @@
   <!-- 魅族 -->
   <Brand Name="魅族">
     <Series Name="魅族数字系列">
+      <Model Name="魅族16S(系统版本低于Flyme9)" Storage="UFS" Auth="None" Loader="/Meizu/Meizu16SBeforeFlyme9_devprg" Digest="" Description="" />
+      <Model Name="魅族16S(系统版本Flyme9)" Storage="UFS" Auth="None" Loader="/Meizu/Meizu16SFlyme9_devprg" Digest="" Description="" />
+      <Model Name="魅族16SPro(系统版本低于Flyme9)" Storage="UFS" Auth="None" Loader="/Meizu/Meizu16SProBeforeFlyme9_devprg" Digest="" Description="" />
+      <Model Name="魅族16SPro(系统版本Flyme9)" Storage="UFS" Auth="None" Loader="/Meizu/Meizu16SProFlyme9_devprg" Digest="" Description="" />
+      <Model Name="魅族16T" Storage="UFS" Auth="None" Loader="/Meizu/Meizu16T_devprg" Digest="" Description="" />
+      <Model Name="魅族16th" Storage="UFS" Auth="None" Loader="/Meizu/Meizu16th_devprg" Digest="" Description="" />
+      <Model Name="魅族16thPlus" Storage="UFS" Auth="None" Loader="/Meizu/Meizu16thPlus_devprg" Digest="" Description="" />
+      <Model Name="魅族16X" Storage="UFS" Auth="None" Loader="/Meizu/Meizu16X_devprg" Digest="" Description="" />
+      <Model Name="魅族16XS" Storage="UFS" Auth="None" Loader="/Meizu/Meizu16XS_devprg" Digest="" Description="" />
+      <Model Name="魅族17" Storage="UFS" Auth="None" Loader="/Meizu/Meizu17_devprg" Digest="" Description="" />
+      <Model Name="魅族17Pro" Storage="UFS" Auth="None" Loader="/Meizu/Meizu17Pro_devprg" Digest="" Description="" />
+      <Model Name="魅族18" Storage="UFS" Auth="None" Loader="/Meizu/Meizu18_devprg" Digest="" Description="" />
+      <Model Name="魅族18Pro" Storage="UFS" Auth="None" Loader="/Meizu/Meizu18Pro_devprg" Digest="" Description="" />
+      <Model Name="魅族18S" Storage="UFS" Auth="None" Loader="/Meizu/Meizu18S_devprg" Digest="" Description="" />
+      <Model Name="魅族18SPro" Storage="UFS" Auth="None" Loader="/Meizu/Meizu18SPro_devprg" Digest="" Description="" />
+      <Model Name="魅族18X" Storage="UFS" Auth="None" Loader="/Meizu/Meizu18X_devprg" Digest="" Description="" />
+      <Model Name="魅族20" Storage="UFS" Auth="None" Loader="/Meizu/Meizu20_devprg" Digest="" Description="" />
       <Model Name="魅族20Pro" Storage="UFS" Auth="None" Loader="/Meizu/Meizu20Pro_devprg" Digest="" Description="" />
+      <Model Name="魅族21" Storage="UFS" Auth="None" Loader="/Meizu/Meizu21_devprg" Digest="" Description="" />
+      <Model Name="魅族21Pro" Storage="UFS" Auth="None" Loader="/Meizu/Meizu21Pro_devprg" Digest="" Description="" />
+      <Model Name="魅族21Note" Storage="UFS" Auth="None" Loader="/Meizu/Meizu21Note_devprg" Digest="" Description="" />
+    </Series>
+    <Series Name="魅族其他系列">
+      <Model Name="魅族M15" Storage="EMMC" Auth="None" Loader="/Meizu/MeizuM15_devprg" Digest="" Description="" />
+      <Model Name="魅族Note8" Storage="EMMC" Auth="None" Loader="/Meizu/MeizuNote8_devprg" Digest="" Description="" />
+      <Model Name="魅族X8" Storage="EMMC" Auth="None" Loader="/Meizu/MeizuX8_devprg" Digest="" Description="" />
+      <Model Name="魅族Lucky08" Storage="UFS" Auth="None" Loader="/Meizu/MeizuLucky08_devprg" Digest="" Description="" />
     </Series>
   </Brand>
   <!-- 一加 -->
@@ -79,10 +105,98 @@
       <Model Name="vivo Z1" Storage="EMMC" Auth="None" Loader="/vivo/vivoZ1_devprg" Digest="" Description="骁龙660" />
     </Series>
   </Brand>
+  <!-- 中兴 -->
+  <Brand Name="中兴">
+    <Series Name="中兴天机Axon系列">
+      <Model Name="中兴天机7" Storage="UFS" Auth="None" Loader="/ZTE/ZTE_Axon7_devprg" Digest="" Description="骁龙820 MSM8996" />
+      <Model Name="中兴天机A31" Storage="UFS" Auth="None" Loader="/ZTE/ZTECommon_768G_devprg" Digest="" Description="骁龙768G" />
+      <Model Name="中兴天机A31Pro" Storage="UFS" Auth="None" Loader="/ZTE/ZTEFamily_888_devprg" Digest="" Description="骁龙888" />
+      <Model Name="中兴天机A41" Storage="UFS" Auth="None" Loader="/ZTE/ZTECommon_870_devprg" Digest="" Description="骁龙870" />
+      <Model Name="中兴Axon9" Storage="UFS" Auth="None" Loader="/ZTE/ZTECommon_845_devprg" Digest="" Description="骁龙845" />
+      <Model Name="中兴Axon9Pro" Storage="UFS" Auth="None" Loader="/ZTE/ZTECommon_845_devprg" Digest="" Description="骁龙845" />
+      <Model Name="中兴Axon10Pro系列" Storage="UFS" Auth="None" Loader="/ZTE/ZTECommon_855_devprg" Digest="" Description="骁龙855" />
+      <Model Name="中兴Axon10SPro" Storage="UFS" Auth="None" Loader="/ZTE/ZTECommon_865_devprg" Digest="" Description="骁龙865" />
+      <Model Name="中兴Axon11" Storage="UFS" Auth="None" Loader="/ZTE/ZTECommon_765G_devprg" Digest="" Description="骁龙765G" />
+      <Model Name="中兴Axon20(普通版,至尊版)" Storage="UFS" Auth="None" Loader="/ZTE/ZTECommon_765G_devprg" Digest="" Description="骁龙765G" />
+      <Model Name="中兴Axon30" Storage="UFS" Auth="None" Loader="/ZTE/ZTECommon_870_devprg" Digest="" Description="骁龙870" />
+      <Model Name="中兴Axon30S" Storage="UFS" Auth="None" Loader="/ZTE/ZTECommon_870_devprg" Digest="" Description="骁龙870" />
+      <Model Name="中兴Axon40Pro" Storage="UFS" Auth="None" Loader="/ZTE/ZTECommon_870_devprg" Digest="" Description="骁龙870" />
+      <Model Name="中兴Axon30Pro" Storage="UFS" Auth="None" Loader="/ZTE/ZTEFamily_888_devprg" Digest="" Description="骁龙888" />
+      <Model Name="中兴Axon30Ultra(普通版,航天版)" Storage="UFS" Auth="None" Loader="/ZTE/ZTEFamily_888_devprg" Digest="" Description="骁龙888" />
+      <Model Name="中兴Axon40Ultra(普通版,航天版)" Storage="UFS" Auth="None" Loader="/ZTE/ZTEFamily_8Gen1_devprg" Digest="" Description="骁龙8Gen1" />
+      <Model Name="中兴Axon41Ultra" Storage="UFS" Auth="None" Loader="/ZTE/ZTEFamily_8Gen1_devprg" Digest="" Description="骁龙8Gen1" />
+    </Series>
+    <Series Name="中兴平板系列">
+      <Model Name="中兴AxonPad" Storage="UFS" Auth="None" Loader="/ZTE/ZTEFamily_8+Pad_devprg" Digest="" Description="骁龙8+" />
+    </Series>
+    <Series Name="中兴其他系列">
+      <Model Name="中兴Blade20Pro" Storage="UFS" Auth="None" Loader="/ZTE/ZTECommon_765G_devprg" Digest="" Description="骁龙765G" />
+      <Model Name="中兴S30Pro" Storage="UFS" Auth="None" Loader="/ZTE/ZTECommon_768G_devprg" Digest="" Description="骁龙768G" />
+    </Series>
+  </Brand>
+  <!-- 努比亚 -->
+  <Brand Name="努比亚">
+    <Series Name="努比亚Z系列">
+      <Model Name="努比亚Z17" Storage="UFS" Auth="None" Loader="/ZTE/Nubia_Z17_devprg" Digest="" Description="骁龙835" />
+      <Model Name="努比亚Z18" Storage="UFS" Auth="None" Loader="/ZTE/Nubia_Z18_devprg" Digest="" Description="骁龙845" />
+      <Model Name="努比亚Z30Pro" Storage="UFS" Auth="None" Loader="/ZTE/ZTEFamily_888_devprg" Digest="" Description="骁龙888" />
+      <Model Name="努比亚Z40Pro" Storage="UFS" Auth="None" Loader="/ZTE/ZTEFamily_8Gen1_devprg" Digest="" Description="骁龙8Gen1" />
+      <Model Name="努比亚Z60Ultra(普通版,摄影师版,领先版)" Storage="UFS" Auth="None" Loader="/ZTE/ZTEFamily_8Gen3Phone_devprg" Digest="" Description="骁龙8Gen3" />
+      <Model Name="努比亚Z70Ultra" Storage="UFS" Auth="None" Loader="/ZTE/ZTEFamily_8Elite_devprg" Digest="" Description="骁龙8至尊版" />
+      <Model Name="努比亚Z70SUltra" Storage="UFS" Auth="None" Loader="/ZTE/ZTEFamily_8Elite_devprg" Digest="" Description="骁龙8至尊版" />
+    </Series>
+    <Series Name="努比亚平板系列">
+      <Model Name="努比亚平板3D(一代)(未经测试)" Storage="UFS" Auth="None" Loader="/ZTE/ZTEFamily_888_devprg" Digest="" Description="骁龙888" />
+      <Model Name="努比亚平板3D(二代)" Storage="UFS" Auth="None" Loader="/ZTE/ZTEFamily_8Gen2Pad_devprg" Digest="" Description="骁龙8Gen2" />
+      <Model Name="努比亚平板Pro" Storage="UFS" Auth="None" Loader="/ZTE/ZTEFamily_8Gen3Pad_devprg" Digest="" Description="骁龙8Gen3" />
+    </Series>
+    <Series Name="努比亚其他系列">
+      <Model Name="努比亚红魔(NX609J)" Storage="UFS" Auth="None" Loader="/ZTE/Nubia_RedMagic_devprg" Digest="" Description="骁龙835" />
+      <Model Name="努比亚X" Storage="UFS" Auth="None" Loader="/ZTE/Nubia_X_devprg" Digest="" Description="骁龙845" />
+      <Model Name="努比亚mini5G" Storage="UFS" Auth="None" Loader="/ZTE/Nubia_mini5G_devprg" Digest="" Description="骁龙855公版机" />
+      <Model Name="努比亚Play" Storage="UFS" Auth="None" Loader="/ZTE/Nubia_Play_devprg" Digest="" Description="骁龙765G" />
+    </Series>
+  </Brand>
+  <!-- 红魔 -->
+  <Brand Name="红魔10">
+    <Series Name="红魔数字系列">
+      <Model Name="红魔Mars" Storage="UFS" Auth="None" Loader="/ZTE/RedMagic_Mars_devprg" Digest="" Description="骁龙845" />
+      <Model Name="红魔3" Storage="UFS" Auth="None" Loader="/ZTE/RedMagicCommon_855_devprg" Digest="" Description="骁龙855" />
+      <Model Name="红魔3S" Storage="UFS" Auth="None" Loader="/ZTE/RedMagicCommon_855_devprg" Digest="" Description="骁龙855" />
+      <Model Name="红魔5G" Storage="UFS" Auth="None" Loader="/ZTE/RedMagicCommon_865_devprg" Digest="" Description="骁龙865" />
+      <Model Name="红魔5S" Storage="UFS" Auth="None" Loader="/ZTE/RedMagicCommon_865_devprg" Digest="" Description="骁龙865" />
+      <Model Name="红魔6" Storage="UFS" Auth="None" Loader="/ZTE/RedMagicCommon_888_devprg" Digest="" Description="骁龙888" />
+      <Model Name="红魔6Pro" Storage="UFS" Auth="None" Loader="/ZTE/RedMagicCommon_888_devprg" Digest="" Description="骁龙888" />
+      <Model Name="红魔6SPro" Storage="UFS" Auth="None" Loader="/ZTE/RedMagicCommon_888_devprg" Digest="" Description="骁龙888" />
+      <Model Name="红魔6R" Storage="UFS" Auth="None" Loader="/ZTE/ZTEFamily_888_devprg" Digest="" Description="骁龙888" />
+      <Model Name="红魔7" Storage="UFS" Auth="None" Loader="/ZTE/RedMagicCommon_8Gen1_devprg" Digest="" Description="骁龙8Gen1" />
+      <Model Name="红魔7Pro" Storage="UFS" Auth="None" Loader="/ZTE/RedMagicCommon_8Gen1_devprg" Digest="" Description="骁龙8Gen1" />
+      <Model Name="红魔7S" Storage="UFS" Auth="None" Loader="/ZTE/RedMagic_7S_devprg" Digest="" Description="骁龙8+" />
+      <Model Name="红魔7SPro" Storage="UFS" Auth="None" Loader="/ZTE/RedMagic_7SPro_devprg" Digest="" Description="骁龙8+" />
+      <Model Name="红魔8系列" Storage="UFS" Auth="None" Loader="/ZTE/RedMagicCommon_8Gen2_devprg" Digest="" Description="骁龙8Gen2" />
+      <Model Name="红魔9系列" Storage="UFS" Auth="None" Loader="/ZTE/ZTEFamily_8Gen3Phone_devprg" Digest="" Description="骁龙8Gen3" />
+      <Model Name="红魔10系列" Storage="UFS" Auth="None" Loader="/ZTE/ZTEFamily_8Elite_devprg" Digest="" Description="骁龙8至尊版" />
+    </Series>
+    <Series Name="红魔平板系列">
+      <Model Name="红魔电竞平板(一代)" Storage="UFS" Auth="None" Loader="/ZTE/ZTEFamily_8+Pad_devprg" Digest="" Description="骁龙8+" />
+      <Model Name="红魔平板3D探索版" Storage="UFS" Auth="None" Loader="/ZTE/ZTEFamily_8Gen2Pad_devprg" Digest="" Description="骁龙8Gen2" />
+      <Model Name="红魔电竞平板Pro(REDMAGIC_Nova_Gaming_Tablet)" Storage="UFS" Auth="None" Loader="/ZTE/ZTEFamily_8Gen3Pad_devprg" Digest="" Description="骁龙8Gen3" />
+    </Series>
+    <Series Name="红魔其他系列">
+      <Model Name="努比亚红魔(NX609J)" Storage="UFS" Auth="None" Loader="/ZTE/Nubia_RedMagic_devprg" Digest="" Description="骁龙835" />
+    </Series>
+  </Brand>
   <!-- 步步高 -->
   <Brand Name="步步高">
     <Series Name="步步高家教机">
       <Model Name="S5" Storage="EMMC" Auth="None" Loader="/BBK/S5_devprg" Digest="" Description="骁龙660公版机" />
     </Series>
   </Brand>
+  <!-- 中国移动 -->
+  <Brand Name="中国移动">
+    <Series Name="中国移动先行者系列">
+      <Model Name="中国移动先行者X1" Storage="UFS" Auth="None" Loader="/ZTE/ZTECommon_855_devprg" Digest="" Description="骁龙855" />
+    </Series>
+  </Brand>
+
 </GeekFlashPacket>
