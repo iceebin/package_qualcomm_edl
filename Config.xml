@@ -266,7 +266,8 @@
   <Brand Name="步步高">
     <Series Name="步步高家教机">
       <Model Name="S5" Storage="EMMC" Auth="None" Loader="/BBK/S5_devprg" Digest="" Description="骁龙660公版机" />
-      <Model Name="S6" Storage="UFS" Auth="None" Loader="/BBK/S6_devprg" Digest="" Description="" />
+      <Model Name="S6" Storage="UFS" Auth="None" Loader="/BBK/S6_devprg" Digest="" Description="骁龙730G公版机" />
+      <Model Name="T3" Storage="UFS" Auth="None" Loader="/BBK/S6_devprg" Digest="" Description="骁龙730G公版机" />
     </Series>
   </Brand>
   <!-- 小天才 -->
@@ -282,6 +283,8 @@
       <Model Name="Z7" Storage="EMMC" Auth="None" Loader="/XTC/XTCWatch_Z7_devprg" Digest="" Description="" />
       <Model Name="Z7A" Storage="EMMC" Auth="None" Loader="/XTC/XTCWatch_Z7A_devprg" Digest="" Description="" />
       <Model Name="Z8" Storage="EMMC" Auth="None" Loader="/XTC/XTCWatch_Z8_devprg" Digest="" Description="" />
+      <Model Name="Z9" Storage="EMMC" Auth="None" Loader="/XTC/XTCWatch_Z8_devprg" Digest="" Description="" />
+      <Model Name="Z10" Storage="EMMC" Auth="None" Loader="/XTC/XTCWatch_Z10_devprg" Digest="" Description="" />
     </Series>
   </Brand>
   <!-- 中国移动 -->
