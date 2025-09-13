@@ -48,7 +48,7 @@
       <Model Name="888全系(Lite引导文件)" Storage="UFS" Auth="None" Loader="/Xiaomi/XiaomiCommon888lite_devprg" Digest="" Description="" />
     </Series>
     <Series Name="红米Note系列">
-      <Model Name="红米Note1LTE" Storage="EMMC" Auth="None" Loader="/Xiaomi/RedmiNote1LTE_devprg" Digest="" Description="" />
+      <Model Name="红米Note1LTE(dior)" Storage="EMMC" Auth="None" Loader="/Xiaomi/RedmiNote1LTE_devprg" Digest="" Description="" />
     </Series>
   </Brand>
   <!-- 华为荣耀 -->
@@ -190,6 +190,21 @@
   <Brand Name="步步高">
     <Series Name="步步高家教机">
       <Model Name="S5" Storage="EMMC" Auth="None" Loader="/BBK/S5_devprg" Digest="" Description="骁龙660公版机" />
+    </Series>
+  </Brand>
+  <!-- 小天才 -->
+  <Brand Name="小天才">
+    <Series Name="小天才电话手表">
+      <Model Name="Z2Y" Storage="EMMC" Auth="None" Loader="/XTC/XTCWatch_Z2Y_devprg" Digest="" Description="" />
+      <Model Name="Z3" Storage="EMMC" Auth="None" Loader="/XTC/XTCWatch_Z3_devprg" Digest="" Description="" />
+      <Model Name="Z5A" Storage="EMMC" Auth="None" Loader="/XTC/XTCWatch_Z5A_devprg" Digest="" Description="" />
+      <Model Name="Z5Q" Storage="EMMC" Auth="None" Loader="/XTC/XTCWatch_Z5Q_devprg" Digest="" Description="" />
+      <Model Name="Z5Pro" Storage="EMMC" Auth="None" Loader="/XTC/XTCWatch_Z5Pro_devprg" Digest="" Description="" />
+      <Model Name="Z6" Storage="EMMC" Auth="None" Loader="/XTC/XTCWatch_Z6_devprg" Digest="" Description="" />
+      <Model Name="Z6巅峰版" Storage="EMMC" Auth="None" Loader="/XTC/XTCWatch_Z6DFB_devprg" Digest="" Description="" />
+      <Model Name="Z7" Storage="EMMC" Auth="None" Loader="/XTC/XTCWatch_Z7_devprg" Digest="" Description="" />
+      <Model Name="Z7A" Storage="EMMC" Auth="None" Loader="/XTC/XTCWatch_Z7A_devprg" Digest="" Description="" />
+      <Model Name="Z8" Storage="EMMC" Auth="None" Loader="/XTC/XTCWatch_Z8_devprg" Digest="" Description="" />
     </Series>
   </Brand>
   <!-- 中国移动 -->
