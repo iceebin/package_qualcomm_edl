@@ -8,7 +8,7 @@
     Tip : 包说明
     Type: 包类型 [MTK，QC]
     -->
-  <PacketInfo Publisher="Jackson" PublishDate="1757420406939" PublishVersion="1.0.0" Tip="无" Type="QC" />
+  <PacketInfo Publisher="刷机匣" PublishDate="1757420406939" PublishVersion="1.0.0" Tip="无" Type="QC" />
   <!--
     Series
 		Brand : 归属的品牌的Name
@@ -23,15 +23,29 @@
     -->
   <!-- 小米 -->
   <Brand Name="小米">
-    <Series Name="小米数字系列">
-      <Model Name="小米6" Storage="UFS" Auth="None" Loader="/Xiaomi/Xiaomi6_devprg" Digest="" Description="" />
-      <Model Name="小米8" Storage="UFS" Auth="Xiaomi" Loader="/Xiaomi/845_devprg" Digest="" Description="" />
-    </Series>
-    <Series Name="小米MIX系列">
-      <Model Name="小米MIX2S" Storage="UFS" Auth="Xiaomi" Loader="/Xiaomi/845_devprg" Digest="" Description="" />
-    </Series>
-    <Series Name="POCO系列">
-      <Model Name="POCOF1" Storage="UFS" Auth="Xiaomi" Loader="/Xiaomi/845_devprg" Digest="" Description="" />
+    <Series Name="通用">
+      <Model Name="439全系" Storage="EMMC" Auth="Xiaomi" Loader="/Xiaomi/XiaomiCommon439_devprg" Digest="" Description="" />
+      <Model Name="625全系" Storage="EMMC" Auth="Xiaomi" Loader="/Xiaomi/XiaomiCommon625_devprg" Digest="" Description="" />
+      <Model Name="632全系" Storage="EMMC" Auth="Xiaomi" Loader="/Xiaomi/XiaomiCommon632_devprg" Digest="" Description="" />
+      <Model Name="636全系" Storage="EMMC" Auth="None" Loader="/Xiaomi/XiaomiCommon660_devprg" Digest="" Description="" />
+      <Model Name="660全系" Storage="EMMC" Auth="None" Loader="/Xiaomi/XiaomiCommon660_devprg" Digest="" Description="" />
+      <Model Name="662全系" Storage="EMMC" Auth="Xiaomi" Loader="/Xiaomi/XiaomiCommon662_devprg" Digest="" Description="" />
+      <Model Name="665全系" Storage="EMMC" Auth="Xiaomi" Loader="/Xiaomi/XiaomiCommon665_devprg" Digest="" Description="" />
+      <Model Name="675全系" Storage="EMMC" Auth="None" Loader="/Xiaomi/XiaomiCommon675_devprg" Digest="" Description="" />
+      <Model Name="680全系" Storage="EMMC" Auth="Xiaomi" Loader="/Xiaomi/XiaomiCommon680_devprg" Digest="" Description="" />
+      <Model Name="710(EMMC存储)全系" Storage="EMMC" Auth="Xiaomi" Loader="/Xiaomi/XiaomiCommon710emmc_devprg" Digest="" Description="" />
+      <Model Name="710(UFS存储)全系" Storage="UFS" Auth="Xiaomi" Loader="/Xiaomi/XiaomiCommon710ufs_devprg" Digest="" Description="" />
+      <Model Name="712全系" Storage="UFS" Auth="Xiaomi" Loader="/Xiaomi/XiaomiCommon712_devprg" Digest="" Description="" />
+      <Model Name="730全系" Storage="UFS" Auth="Xiaomi" Loader="/Xiaomi/XiaomiCommon730_devprg" Digest="" Description="" />
+      <Model Name="778G全系" Storage="UFS" Auth="None" Loader="/Xiaomi/XiaomiCommon778g_devprg" Digest="" Description="" />
+      <Model Name="835全系" Storage="UFS" Auth="None" Loader="/Xiaomi/XiaomiCommon835_devprg" Digest="" Description="" />
+      <Model Name="845全系" Storage="UFS" Auth="Xiaomi" Loader="/Xiaomi/XiaomiCommon845_devprg" Digest="" Description="" />
+      <Model Name="855(855+)全系" Storage="UFS" Auth="Xiaomi" Loader="/Xiaomi/XiaomiCommon855_devprg" Digest="" Description="" />
+      <Model Name="865全系" Storage="UFS" Auth="Xiaomi" Loader="/Xiaomi/XiaomiCommon865_devprg" Digest="" Description="" />
+      <Model Name="870全系(DDR引导文件)" Storage="UFS" Auth="Xiaomi" Loader="/Xiaomi/XiaomiCommon870ddr_devprg" Digest="" Description="" />
+      <Model Name="870全系(Lite引导文件)" Storage="UFS" Auth="Xiaomi" Loader="/Xiaomi/XiaomiCommon870lite_devprg" Digest="" Description="" />
+      <Model Name="888全系(DDR引导文件)" Storage="UFS" Auth="None" Loader="/Xiaomi/XiaomiCommon888ddr_devprg" Digest="" Description="" />
+      <Model Name="888全系(Lite引导文件)" Storage="UFS" Auth="None" Loader="/Xiaomi/XiaomiCommon888lite_devprg" Digest="" Description="" />
     </Series>
     <Series Name="红米Note系列">
       <Model Name="红米Note1LTE" Storage="EMMC" Auth="None" Loader="/Xiaomi/RedmiNote1LTE_devprg" Digest="" Description="" />
