@@ -189,6 +189,13 @@
   <!-- 黑鲨 -->
   <Brand Name="黑鲨">
     <Series Name="黑鲨全系">
+      <Model Name="黑鲨1" Storage="UFS" Auth="None" Loader="/BlackShark/BlackShark1_devprg" Digest="" Description="" />
+      <Model Name="黑鲨Helo" Storage="UFS" Auth="None" Loader="/BlackShark/BlackSharkHelo_devprg" Digest="" Description="" />
+      <Model Name="黑鲨2" Storage="UFS" Auth="None" Loader="/BlackShark/BlackShark2_devprg" Digest="" Description="" />
+      <Model Name="黑鲨2Pro" Storage="UFS" Auth="None" Loader="/BlackShark/BlackShark2Pro_devprg" Digest="" Description="" />
+      <Model Name="黑鲨3" Storage="UFS" Auth="None" Loader="/BlackShark/BlackShark3_devprg" Digest="" Description="" />
+      <Model Name="黑鲨3Pro" Storage="UFS" Auth="None" Loader="/BlackShark/BlackShark3Pro_devprg" Digest="" Description="" />
+      <Model Name="黑鲨3S" Storage="UFS" Auth="None" Loader="/BlackShark/BlackShark3S_devprg" Digest="" Description="" />
       <Model Name="黑鲨4" Storage="UFS" Auth="Xiaomi" Loader="/BlackShark/BlackShark4_devprg" Digest="" Description="" />
       <Model Name="黑鲨4S" Storage="UFS" Auth="Xiaomi" Loader="/BlackShark/BlackShark4_devprg" Digest="" Description="" />
       <Model Name="黑鲨5" Storage="UFS" Auth="Xiaomi" Loader="/BlackShark/BlackShark4_devprg" Digest="" Description="" />
