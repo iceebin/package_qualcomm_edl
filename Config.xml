@@ -142,8 +142,8 @@
       <Model Name="努比亚Z30Pro" Storage="UFS" Auth="None" Loader="/ZTE/ZTEFamily_888_devprg" Digest="" Description="骁龙888" />
       <Model Name="努比亚Z40Pro" Storage="UFS" Auth="None" Loader="/ZTE/ZTEFamily_8Gen1_devprg" Digest="" Description="骁龙8Gen1" />
       <Model Name="努比亚Z60Ultra(普通版,摄影师版,领先版)" Storage="UFS" Auth="None" Loader="/ZTE/ZTEFamily_8Gen3Phone_devprg" Digest="" Description="骁龙8Gen3" />
-      <Model Name="努比亚Z70Ultra" Storage="UFS" Auth="None" Loader="/ZTE/ZTEFamily_8Elite_devprg" Digest="" Description="骁龙8至尊版" />
-      <Model Name="努比亚Z70SUltra" Storage="UFS" Auth="None" Loader="/ZTE/ZTEFamily_8Elite_devprg" Digest="" Description="骁龙8至尊版" />
+      <Model Name="努比亚Z70Ultra" Storage="UFS" Auth="ZTE" Loader="/ZTE/ZTEFamily_8Elite_devprg" Digest="" Description="骁龙8至尊版" />
+      <Model Name="努比亚Z70SUltra" Storage="UFS" Auth="ZTE" Loader="/ZTE/ZTEFamily_8Elite_devprg" Digest="" Description="骁龙8至尊版" />
     </Series>
     <Series Name="努比亚平板系列">
       <Model Name="努比亚平板3D(一代)(未经测试)" Storage="UFS" Auth="None" Loader="/ZTE/ZTEFamily_888_devprg" Digest="" Description="骁龙888" />
@@ -175,7 +175,7 @@
       <Model Name="红魔7SPro" Storage="UFS" Auth="None" Loader="/ZTE/RedMagic_7SPro_devprg" Digest="" Description="骁龙8+" />
       <Model Name="红魔8系列" Storage="UFS" Auth="None" Loader="/ZTE/RedMagicCommon_8Gen2_devprg" Digest="" Description="骁龙8Gen2" />
       <Model Name="红魔9系列" Storage="UFS" Auth="None" Loader="/ZTE/ZTEFamily_8Gen3Phone_devprg" Digest="" Description="骁龙8Gen3" />
-      <Model Name="红魔10系列" Storage="UFS" Auth="None" Loader="/ZTE/ZTEFamily_8Elite_devprg" Digest="" Description="骁龙8至尊版" />
+      <Model Name="红魔10系列" Storage="UFS" Auth="ZTE" Loader="/ZTE/ZTEFamily_8Elite_devprg" Digest="" Description="骁龙8至尊版" />
     </Series>
     <Series Name="红魔平板系列">
       <Model Name="红魔电竞平板(一代)" Storage="UFS" Auth="None" Loader="/ZTE/ZTEFamily_8+Pad_devprg" Digest="" Description="骁龙8+" />
