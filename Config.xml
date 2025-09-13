@@ -214,6 +214,35 @@
       <Model Name="ROG2" Storage="UFS" Auth="None" Loader="/ROG/ROG2_devprg" Digest="" Description="" />
     </Series>
   </Brand>
+  <!-- 联想 拯救者 -->
+  <Brand Name="联想ZUK小新拯救者">
+    <Series Name="ZUK系列">
+      <Model Name="ZUK Z2(Plus)" Storage="EMMC" Auth="None" Loader="/Lenovo/ZUK_Z2_devprg" Digest="" Description="Z2131" />
+    </Series>
+    <Series Name="联想平板系列">
+      <Model Name="YOGA PadPro AI元启版" Storage="UFS" Auth="None" Loader="/Lenovo/Lenovo_YOGAPadProAI_devprg" Digest="" Description="TB520FU" />
+    </Series>
+    <Series Name="小新平板系列">
+      <Model Name="小新Pad(2020)" Storage="UFS" Auth="None" Loader="/Lenovo/XiaoxinPad_2020_devprg" Digest="" Description="TB-J606F" />
+      <Model Name="小新Pad 2022" Storage="UFS" Auth="None" Loader="/Lenovo/XiaoxinPad_2022_devprg" Digest="" Description="TB128FU" />
+      <Model Name="小新PadPro(2020)" Storage="UFS" Auth="None" Loader="/Lenovo/XiaoxinPad_Pro2020_devprg" Digest="" Description="TB-J706F" />
+      <Model Name="小新PadPro 2021" Storage="UFS" Auth="None" Loader="/Lenovo/XiaoxinPad_Pro2021_devprg" Digest="" Description="TB-J716F" />
+      <Model Name="小新PadPro 2022骁龙版" Storage="UFS" Auth="None" Loader="/Lenovo/XiaoxinPad_Pro2022Snapdragon_devprg" Digest="" Description="TB138FC" />
+      <Model Name="小新PadPro 12.6" Storage="UFS" Auth="None" Loader="/Lenovo/XiaoxinPad_Pro12.6_devprg" Digest="" Description="TB-Q706F" />
+      <Model Name="小新PadPro 12.7" Storage="UFS" Auth="None" Loader="/Lenovo/XiaoxinPad_Pro12.7_devprg" Digest="" Description="TB371FC" />
+      <Model Name="小新PadPlus" Storage="UFS" Auth="None" Loader="/Lenovo/XiaoxinPad_Plus_devprg" Digest="" Description="TB-J607F" />
+    </Series>
+    <Series Name="拯救者系列">
+      <Model Name="拯救者Pro" Storage="UFS" Auth="None" Loader="/Lenovo/Legion_Pro_devprg" Digest="" Description="L79031" />
+      <Model Name="拯救者2Pro" Storage="UFS" Auth="None" Loader="/Lenovo/Legion_2Pro_devprg" Digest="" Description="L70081" />
+      <Model Name="拯救者Y70" Storage="UFS" Auth="None" Loader="/Lenovo/Legion_Y70_devprg" Digest="" Description="L71091" />
+      <Model Name="拯救者Y700 2022(一代)" Storage="UFS" Auth="None" Loader="/Lenovo/Legion_Y700-2022_devprg" Digest="" Description="TB9707F" />
+      <Model Name="拯救者Y700 2023(二代)" Storage="UFS" Auth="None" Loader="/Lenovo/Legion_Y700-2023_devprg" Digest="" Description="TB320FC" />
+      <Model Name="拯救者Y700 2025(三代)" Storage="UFS" Auth="None" Loader="/Lenovo/Legion_Y700-2025_devprg" Digest="" Description="TB321FU" />
+      <Model Name="拯救者Y700(四代)" Storage="UFS" Auth="None" Loader="/Lenovo/Legion_Y700-4_devprg" Digest="" Description="TB322FU TB322FC" />
+      <Model Name="拯救者Y90" Storage="UFS" Auth="None" Loader="/Lenovo/Legion_Y90_devprg" Digest="" Description="L71061" />
+    </Series>
+  </Brand>
   <!-- 步步高 -->
   <Brand Name="步步高">
     <Series Name="步步高家教机">
