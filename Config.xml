@@ -77,10 +77,14 @@
       <Model Name="HiNova9" Storage="UFS" Auth="None" Loader="/Huawei/ZhiXuanCommon_778G_devprg" Digest="" Description="骁龙778G" />
       <Model Name="Nova9Pro" Storage="UFS" Auth="None" Loader="/Huawei/HuaweiCommon_778G-4G_devprg" Digest="" Description="骁龙778G 4G" />
       <Model Name="HiNova9Pro" Storage="UFS" Auth="None" Loader="/Huawei/ZhiXuanCommon_778G_devprg" Digest="" Description="骁龙778G" />
+      <Model Name="Nova9SE" Storage="UFS" Auth="None" Loader="/Huawei/HuaweiCommon_680_devprg" Digest="" Description="骁龙680" />
       <Model Name="HiNova9SE(未测试)" Storage="UFS" Auth="None" Loader="/Huawei/HonorCommon_695_devprg" Digest="" Description="骁龙695" />
+      <Model Name="Nova10SE" Storage="UFS" Auth="None" Loader="/Huawei/HuaweiCommon_680_devprg" Digest="" Description="骁龙680" />
       <Model Name="HiNova10" Storage="UFS" Auth="None" Loader="/Huawei/ZhiXuanCommon_778G_devprg" Digest="" Description="骁龙778G" />
+      <Model Name="Nova11SE" Storage="UFS" Auth="None" Loader="/Huawei/HuaweiCommon_680_devprg" Digest="" Description="骁龙680" />
       <Model Name="HiNova12SE(未测试)" Storage="UFS" Auth="None" Loader="/Huawei/HonorCommon_695_devprg" Digest="" Description="骁龙695" />
       <Model Name="Nova12活力版" Storage="UFS" Auth="None" Loader="/Huawei/HuaweiCommon_778G-4G_devprg" Digest="" Description="骁龙778G 4G" />
+      <Model Name="NovaY90" Storage="UFS" Auth="None" Loader="/Huawei/HuaweiCommon_680_devprg" Digest="" Description="骁龙680" />
     </Series>
     <Series Name="华为畅享系列">
       <Model Name="畅享6S" Storage="EMMC" Auth="None" Loader="/Huawei/Common_435_devprg" Digest="" Description="骁龙435 MSM8940" />
@@ -89,6 +93,11 @@
       <Model Name="畅享9" Storage="EMMC" Auth="None" Loader="/Huawei/Common_450_devprg" Digest="" Description="骁龙450" />
       <Model Name="优畅享30E骁龙版" Storage="UFS" Auth="None" Loader="/Huawei/ZhiXuanCommon_480_devprg" Digest="" Description="骁龙480" />
       <Model Name="优畅享50" Storage="UFS" Auth="None" Loader="/Huawei/ZhiXuanCommon_480_devprg" Digest="" Description="骁龙480" />
+      <Model Name="畅享50Pro" Storage="UFS" Auth="None" Loader="/Huawei/HuaweiCommon_680_devprg" Digest="" Description="骁龙680" />
+      <Model Name="畅享60X" Storage="UFS" Auth="None" Loader="/Huawei/HuaweiCommon_680_devprg" Digest="" Description="骁龙680" />
+      <Model Name="畅享60Pro" Storage="UFS" Auth="None" Loader="/Huawei/HuaweiCommon_680_devprg" Digest="" Description="骁龙680" />
+      <Model Name="Hi畅享60Pro(未测试)" Storage="UFS" Auth="None" Loader="/Huawei/HonorCommon_695_devprg" Digest="" Description="骁龙695" />
+      <Model Name="畅享70Pro" Storage="UFS" Auth="None" Loader="/Huawei/HuaweiCommon_680_devprg" Digest="" Description="骁龙680" />
     </Series>
     <Series Name="华为麦芒系列">
       <Model Name="麦芒5" Storage="EMMC" Auth="None" Loader="/Huawei/Common_625_devprg" Digest="" Description="骁龙625" />
