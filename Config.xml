@@ -47,6 +47,9 @@
       <Model Name="888全系(DDR引导文件)" Storage="UFS" Auth="None" Loader="/Xiaomi/XiaomiCommon888ddr_devprg" Digest="" Description="" />
       <Model Name="888全系(Lite引导文件)" Storage="UFS" Auth="None" Loader="/Xiaomi/XiaomiCommon888lite_devprg" Digest="" Description="" />
     </Series>
+    <Series Name="小米数字系列">
+      <Model Name="小米5" Storage="EMMC" Auth="None" Loader="/Xiaomi/Xiaomi5_devprg" Digest="" Description="" />
+    </Series>
     <Series Name="红米Note系列">
       <Model Name="红米Note1LTE(dior)" Storage="EMMC" Auth="None" Loader="/Xiaomi/RedmiNote1LTE_devprg" Digest="" Description="" />
     </Series>
