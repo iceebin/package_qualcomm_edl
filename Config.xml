@@ -66,7 +66,9 @@
       <Model Name="骁龙X55 SDX55" Storage="EMMC" Auth="Qualcomm" Loader="/Qualcomm/SDX55_fhprg.bin" Digest="" Description="" />
       <Model Name="骁龙888 SM8350" Storage="EMMC" Auth="Qualcomm" Loader="/Qualcomm/SM8350_firehoseRM6R.elf" Digest="" Description="" />
       <Model Name="高通QCA4020 prog_spinor_firehose" Storage="EMMC" Auth="Qualcomm" Loader="/Qualcomm/prog_spinor_firehose_qca4020_lite_m4_.mbn" Digest="" Description="" /> 
-<!-- 小米 -->
+    </Series>
+  </Brand>
+  <!-- 小米 -->
   <Brand Name="小米红米">
     <Series Name="通用">
       <Model Name="439全系" Storage="EMMC" Auth="Xiaomi" Loader="/Xiaomi/XiaomiCommon439_devprg" Digest="" Description="" />
