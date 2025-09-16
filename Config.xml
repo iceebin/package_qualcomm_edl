@@ -187,6 +187,7 @@
   <Brand Name="OPPO一加真我">
     <Series Name="OPPO真我通用">
       <Model Name="778" Storage="UFS" Auth="None" Loader="/OPLUS/OPPORealmeCommon_778_devprg" Digest="" Description="" />
+      <Model Name="782" Storage="UFS" Auth="None" Loader="/OPLUS/OPPORealmeCommon_778_devprg" Digest="" Description="" />
       <Model Name="865(引导文件1)" Storage="UFS" Auth="None" Loader="/OPLUS/OPPORealmeCommon_865-1_devprg" Digest="" Description="" />
       <Model Name="865(引导文件2)" Storage="UFS" Auth="None" Loader="/OPLUS/OPPORealmeCommon_865-2_devprg" Digest="" Description="" />
       <Model Name="870(引导文件1)" Storage="UFS" Auth="None" Loader="/OPLUS/OPPORealmeCommon_870-1_devprg" Digest="" Description="" />
