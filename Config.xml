@@ -358,6 +358,23 @@
       <Model Name="LG Q92" Storage="UFS" Auth="None" Loader="/LG/LGCommon_765G_devprg" Digest="" Description="" />
     </Series>
   </Brand>
+  <!-- 三星 -->
+  <Brand Name="三星">
+    <Series Name="Galaxy A系列">
+      <Model Name="Galaxy A02s" Storage="EMMC" Auth="None" Loader="/Samsung/Galaxy_A02s_devprg" Digest="" Description="" />
+      <Model Name="Galaxy A11" Storage="EMMC" Auth="None" Loader="/Samsung/Galaxy_A11_devprg" Digest="" Description="" />
+      <Model Name="Galaxy A52" Storage="UFS" Auth="None" Loader="/Samsung/Galaxy_A52_devprg" Digest="" Description="" />
+      <Model Name="Galaxy A70" Storage="UFS" Auth="None" Loader="/Samsung/Galaxy_A70_devprg" Digest="" Description="" />
+      <Model Name="Galaxy A72" Storage="UFS" Auth="None" Loader="/Samsung/Galaxy_A72_devprg" Digest="" Description="" />
+    </Series>
+    <Series Name="Galaxy J系列">
+      <Model Name="Galaxy J4Plus(SM-J415F)" Storage="EMMC" Auth="None" Loader="/Samsung/Galaxy_J4Plus_devprg" Digest="" Description="" />
+      <Model Name="Galaxy J6Plus(SM-J610F)" Storage="EMMC" Auth="None" Loader="/Samsung/Galaxy_J6Plus_devprg" Digest="" Description="" />
+    </Series>
+    <Series Name="Galaxy M系列">
+      <Model Name="Galaxy M11" Storage="EMMC" Auth="None" Loader="/Samsung/Galaxy_M11_devprg" Digest="" Description="" />
+    </Series>
+  </Brand>
   <!-- 步步高 -->
   <Brand Name="步步高">
     <Series Name="步步高家教机">
