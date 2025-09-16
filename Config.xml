@@ -389,5 +389,11 @@
       <Model Name="中国移动先行者X1" Storage="UFS" Auth="None" Loader="/ZTE/ZTECommon_855_devprg" Digest="" Description="骁龙855" />
     </Series>
   </Brand>
+  <!-- 柔宇ROYOLE -->
+  <Brand Name="柔宇ROYOLE">
+    <Series Name="FlexPai系列">
+      <Model Name="FlexPai 2" Storage="UFS" Auth="None" Loader="/ROYOLE/FlexPai2_devprg" Digest="" Description="" />
+    </Series>
+  </Brand>
 
 </GeekFlashPacket>
