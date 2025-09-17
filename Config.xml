@@ -216,9 +216,13 @@
       <Model Name="vivo U3x" Storage="EMMC" Auth="None" Loader="/vivo/vivoCommon_665_devprg" Digest="" Description="骁龙665" />
     </Series>
     <Series Name="vivo V系列">
+      <Model Name="vivo V9" Storage="EMMC" Auth="None" Loader="/vivo/vivo_V9_devprg" Digest="" Description="骁龙626 " />
       <Model Name="vivo V9 Youth" Storage="EMMC" Auth="None" Loader="/vivo/vivo_V9Youth_devprg" Digest="" Description="骁龙450 " />
       <Model Name="vivo V11" Storage="EMMC" Auth="None" Loader="/vivo/vivo_V11_devprg" Digest="" Description="骁龙660" />
-      <Model Name="vivo V21eM2" Storage="UFS" Auth="None" Loader="/vivo/vivo_V21eM2_devprg" Digest="" Description="骁龙720G" />
+      <Model Name="vivo V11Pro" Storage="EMMC" Auth="None" Loader="/vivo/vivo_V11Pro_devprg" Digest="" Description="骁龙660" />
+      <Model Name="vivo Y20" Storage="UFS" Auth="None" Loader="/vivo/Common_720G_devprg" Digest="" Description="骁龙720G" />
+      <Model Name="vivo V21e" Storage="UFS" Auth="None" Loader="/vivo/Common_720G_devprg" Digest="" Description="骁龙720G" />
+      <Model Name="vivo V21eM2(？)" Storage="UFS" Auth="None" Loader="/vivo/vivo_V21eM2_devprg" Digest="" Description="骁龙720G" />
     </Series>
     <Series Name="vivo X系列">
       <Model Name="vivo X7" Storage="EMMC" Auth="None" Loader="/vivo/vivo_X7_devprg" Digest="" Description="骁龙652" />
@@ -236,13 +240,29 @@
     <Series Name="vivo Y系列">
       <Model Name="vivo Y5" Storage="EMMC" Auth="None" Loader="/vivo/vivoCommon_665_devprg" Digest="" Description="骁龙665" />
       <Model Name="vivo Y9s" Storage="EMMC" Auth="None" Loader="/vivo/vivoCommon_665_devprg" Digest="" Description="骁龙665" />
+      <Model Name="vivo Y20 2020" Storage="EMMC" Auth="None" Loader="/vivo/vivo_Y20-2020_devprg" Digest="" Description="骁龙460" />
+      <Model Name="vivo Y20i" Storage="EMMC" Auth="None" Loader="/vivo/vivo_Y20-2020_devprg" Digest="" Description="骁龙460" />
+      <Model Name="vivo Y20S" Storage="EMMC" Auth="None" Loader="/vivo/vivo_Y20-2020_devprg" Digest="" Description="骁龙460" />
+      <Model Name="vivo Y50t" Storage="UFS" Auth="None" Loader="/vivo/Common_720G_devprg" Digest="" Description="骁龙720G" />
+      <Model Name="vivo Y53" Storage="EMMC" Auth="None" Loader="/vivo/vivo_Y53_devprg" Digest="" Description="骁龙425" />
+      <Model Name="vivo Y53L" Storage="EMMC" Auth="None" Loader="/vivo/vivo_Y53_devprg" Digest="" Description="骁龙425" />
+      <Model Name="vivo Y55" Storage="EMMC" Auth="None" Loader="/vivo/vivo_Y55_devprg" Digest="" Description="骁龙430" />
+      <Model Name="vivo Y55L" Storage="EMMC" Auth="None" Loader="/vivo/vivo_Y55_devprg" Digest="" Description="骁龙430" />
+      <Model Name="vivo Y65" Storage="EMMC" Auth="None" Loader="/vivo/vivo_Y65_devprg" Digest="" Description="骁龙425" />
       <Model Name="vivo Y66i" Storage="EMMC" Auth="None" Loader="/vivo/vivoCommon_425_devprg" Digest="" Description="骁龙425" />
       <Model Name="vivo Y66iA" Storage="EMMC" Auth="None" Loader="/vivo/vivoCommon_425_devprg" Digest="" Description="骁龙425" />
+      <Model Name="vivo Y71" Storage="EMMC" Auth="None" Loader="/vivo/vivo_Y71_devprg" Digest="" Description="骁龙425" />
+      <Model Name="vivo Y71i" Storage="EMMC" Auth="None" Loader="/vivo/vivo_Y71_devprg" Digest="" Description="骁龙425" />
       <Model Name="vivo Y79" Storage="EMMC" Auth="None" Loader="/vivo/vivo_Y79_devprg" Digest="" Description="骁龙625" />
       <Model Name="vivo Y79A" Storage="EMMC" Auth="None" Loader="/vivo/vivo_Y79_devprg" Digest="" Description="骁龙625" />
+      <Model Name="vivo Y91(骁龙439)" Storage="EMMC" Auth="None" Loader="/vivo/vivoCommon_439_devprg" Digest="" Description="骁龙439" />
+      <Model Name="vivo Y93(骁龙439)" Storage="EMMC" Auth="None" Loader="/vivo/vivoCommon_439_devprg" Digest="" Description="骁龙439" />
+      <Model Name="vivo Y95(骁龙439)" Storage="EMMC" Auth="None" Loader="/vivo/vivoCommon_439_devprg" Digest="" Description="骁龙439" />
     </Series>
     <Series Name="vivo Z系列">
       <Model Name="vivo Z1" Storage="EMMC" Auth="None" Loader="/vivo/vivo_Z1_devprg" Digest="" Description="骁龙660" />
+      <Model Name="vivo Z3 4GB内存版本(未测试)" Storage="EMMC" Auth="None" Loader="/vivo/vivo_Z3_devprg" Digest="" Description="骁龙670" />
+      <Model Name="vivo Z3 6GB内存版本(未测试)" Storage="EMMC" Auth="None" Loader="/vivo/vivo_Z3_devprg" Digest="" Description="骁龙710" />
       <Model Name="vivo Z5i(未测试)" Storage="UFS" Auth="None" Loader="/vivo/vivoCommon_675_devprg" Digest="" Description="骁龙675" />
     </Series>
     <Series Name="iQOO系列">
@@ -253,7 +273,7 @@
       <Model Name="iQOO Neo 855版(PD1936)" Storage="UFS" Auth="None" Loader="/vivo/Common_855_devprg" Digest="" Description="骁龙855" />
       <Model Name="iQOO Neo 855竞速版(PD1936E)" Storage="UFS" Auth="None" Loader="/vivo/Common_855_devprg" Digest="" Description="骁龙855" />
       <Model Name="iQOO Neo 3(未测试)(PD1981)" Storage="UFS" Auth="None" Loader="/vivo/iQOO_Neo3_devprg" Digest="" Description="骁龙865" />
-      <Model Name="iQOO U1" Storage="UFS" Auth="None" Loader="/vivo/iQOO_U1_devprg" Digest="" Description="骁龙720G" />
+      <Model Name="iQOO U1" Storage="UFS" Auth="None" Loader="/vivo/Common_720G_devprg" Digest="" Description="骁龙720G" />
     </Series>
   </Brand>
   <!-- 中兴 -->
