@@ -206,19 +206,31 @@
   <!-- OPPO一加真我 -->
   <Brand Name="OPPO一加真我">
     <Series Name="OPPO真我通用">
+      <Model Name="665" Storage="UFS" Auth="None" Loader="/OPLUS/OPPOCommon_665_devprg" Digest="" Description="OPPO A5可能需要从官方Recovery连续点击版本号进入9008才能正常刷机" />
+      <Model Name="710" Storage="UFS" Auth="OPPO_PATCHPBL" Loader="/OPLUS/OPPOCommon_710_devprg" Digest="" Description="" />
       <Model Name="778" Storage="UFS" Auth="None" Loader="/OPLUS/OPPORealmeCommon_778_devprg" Digest="" Description="" />
       <Model Name="782" Storage="UFS" Auth="None" Loader="/OPLUS/OPPORealmeCommon_778_devprg" Digest="" Description="" />
+      <Model Name="855" Storage="UFS" Auth="None" Loader="/OPLUS/OPPOCommon_855_devprg" Digest="" Description="" />
       <Model Name="865(引导文件1)" Storage="UFS" Auth="None" Loader="/OPLUS/OPPORealmeCommon_865-1_devprg" Digest="" Description="" />
       <Model Name="865(引导文件2)" Storage="UFS" Auth="None" Loader="/OPLUS/OPPORealmeCommon_865-2_devprg" Digest="" Description="" />
       <Model Name="870(引导文件1)" Storage="UFS" Auth="None" Loader="/OPLUS/OPPORealmeCommon_870-1_devprg" Digest="" Description="" />
       <Model Name="870(引导文件2)" Storage="UFS" Auth="None" Loader="/OPLUS/OPPORealmeCommon_870-2_devprg" Digest="" Description="" />
     </Series>
     <Series Name="一加数字系列">
+      <Model Name="一加1" Storage="EMMC" Auth="None" Loader="/OPLUS/OnePlus_1_devprg" Digest="" Description="" />
+      <Model Name="一加2" Storage="EMMC" Auth="None" Loader="/OPLUS/OnePlus_2_devprg" Digest="" Description="" />
+      <Model Name="一加3" Storage="UFS" Auth="None" Loader="/OPLUS/OnePlus_3_devprg" Digest="" Description="" />
+      <Model Name="一加3T(ddr引导)" Storage="UFS" Auth="None" Loader="/OPLUS/OnePlus_3T-ddr_devprg" Digest="" Description="" />
+      <Model Name="一加3T(lite引导)" Storage="UFS" Auth="None" Loader="/OPLUS/OnePlus_3T-lite_devprg" Digest="" Description="" />
+      <Model Name="一加5" Storage="UFS" Auth="None" Loader="/OPLUS/OnePlus_5_devprg" Digest="" Description="" />
       <Model Name="一加6" Storage="UFS" Auth="None" Loader="/OPLUS/OnePlus_6_devprg" Digest="" Description="" />
       <Model Name="一加6-测试授权" Storage="UFS" Auth="Oneplus1" Loader="/OPLUS/OnePlus_6_AuthTest_devprg" Digest="" Description="" />
     </Series>
     <Series Name="一加Nord系列">
       <Model Name="一加NordN200" Storage="UFS" Auth="None" Loader="/OPLUS/OnePlus_NordN200_devprg" Digest="" Description="sm4350" />
+    </Series>
+    <Series Name="一加其他系列">
+      <Model Name="一加X" Storage="EMMC" Auth="None" Loader="/OPLUS/OnePlus_X_devprg" Digest="" Description="" />
     </Series>
   </Brand>
   <!-- vivo -->
@@ -262,6 +274,7 @@
       <Model Name="vivo Y20i" Storage="EMMC" Auth="None" Loader="/vivo/vivo_Y20-2020_devprg" Digest="" Description="骁龙460" />
       <Model Name="vivo Y20S" Storage="EMMC" Auth="None" Loader="/vivo/vivo_Y20-2020_devprg" Digest="" Description="骁龙460" />
       <Model Name="vivo Y50t" Storage="UFS" Auth="None" Loader="/vivo/Common_720G_devprg" Digest="" Description="骁龙720G" />
+      <Model Name="vivo Y51" Storage="EMMC" Auth="None" Loader="/vivo/vivo_Y51_devprg" Digest="" Description="骁龙410" />
       <Model Name="vivo Y53" Storage="EMMC" Auth="None" Loader="/vivo/vivo_Y53_devprg" Digest="" Description="骁龙425" />
       <Model Name="vivo Y53L" Storage="EMMC" Auth="None" Loader="/vivo/vivo_Y53_devprg" Digest="" Description="骁龙425" />
       <Model Name="vivo Y55" Storage="EMMC" Auth="None" Loader="/vivo/vivo_Y55_devprg" Digest="" Description="骁龙430" />
