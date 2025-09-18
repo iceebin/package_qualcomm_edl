@@ -452,7 +452,7 @@
       <Model Name="坚果Pro2" Storage="EMMC" Auth="None" Loader="/Smartisan/Nut_Pro2_devprg" Digest="" Description="" />
       <Model Name="坚果Pro2特别版" Storage="EMMC" Auth="None" Loader="/Smartisan/Nut_Pro2SE_devprg" Digest="" Description="" />
       <Model Name="坚果Pro2S" Storage="EMMC" Auth="None" Loader="/Smartisan/Nut_Pro2S_devprg" Digest="" Description="" />
-      <Model Name="坚果Pro3" Storage="UFS" Auth="None" Loader="/Smartisan/Smartisan_Pro3_devprg" Digest="" Description="" />
+      <Model Name="坚果Pro3" Storage="UFS" Auth="None" Loader="/Smartisan/Nut_Pro3_devprg" Digest="" Description="" />
       <Model Name="坚果R1" Storage="UFS" Auth="None" Loader="/Smartisan/Nut_R1_devprg" Digest="" Description="" />
     </Series>
   </Brand>
