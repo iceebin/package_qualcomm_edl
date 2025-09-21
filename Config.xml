@@ -420,6 +420,7 @@
     <Series Name="小新平板系列">
       <Model Name="小新Pad(2020)" Storage="UFS" Auth="None" Loader="/Lenovo/XiaoxinPad_2020_devprg" Digest="" Description="TB-J606F" />
       <Model Name="小新Pad 2022" Storage="UFS" Auth="None" Loader="/Lenovo/XiaoxinPad_2022_devprg" Digest="" Description="TB128FU" />
+      <Model Name="小新Pad 2024" Storage="UFS" Auth="None" Loader="/Lenovo/XiaoxinPad_2024_devprg" Digest="" Description="TB331FC" />
       <Model Name="小新PadPro(2020)" Storage="UFS" Auth="None" Loader="/Lenovo/XiaoxinPad_Pro2020_devprg" Digest="" Description="TB-J706F" />
       <Model Name="小新PadPro 2021" Storage="UFS" Auth="None" Loader="/Lenovo/XiaoxinPad_Pro2021_devprg" Digest="" Description="TB-J716F" />
       <Model Name="小新PadPro 2022骁龙版" Storage="UFS" Auth="None" Loader="/Lenovo/XiaoxinPad_Pro2022Snapdragon_devprg" Digest="" Description="TB138FC" />
