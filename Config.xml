@@ -311,6 +311,7 @@
   <Brand Name="中兴">
     <Series Name="中兴天机Axon系列">
       <Model Name="中兴天机7" Storage="UFS" Auth="None" Loader="/ZTE/ZTE_Axon7_devprg" Digest="" Description="骁龙820 MSM8996" />
+      <Model Name="中兴天机7MAX" Storage="EMMC" Auth="None" Loader="/ZTE/ZTE_Axon7MAX_devprg" Digest="" Description="骁龙625 MSM8953" />
       <Model Name="中兴天机A31" Storage="UFS" Auth="None" Loader="/ZTE/ZTECommon_768G_devprg" Digest="" Description="骁龙768G" />
       <Model Name="中兴天机A31Pro" Storage="UFS" Auth="None" Loader="/ZTE/ZTEFamily_888_devprg" Digest="" Description="骁龙888" />
       <Model Name="中兴天机A41" Storage="UFS" Auth="None" Loader="/ZTE/ZTECommon_870_devprg" Digest="" Description="骁龙870" />
