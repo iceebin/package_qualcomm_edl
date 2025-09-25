@@ -384,6 +384,7 @@
       <Model Name="红魔电竞平板(一代)" Storage="UFS" Auth="None" Loader="/ZTE/ZTEFamily_8+Pad_devprg" Digest="" Description="骁龙8+" />
       <Model Name="红魔平板3D探索版" Storage="UFS" Auth="None" Loader="/ZTE/ZTEFamily_8Gen2Pad_devprg" Digest="" Description="骁龙8Gen2" />
       <Model Name="红魔电竞平板Pro(REDMAGIC_Nova_Gaming_Tablet)" Storage="UFS" Auth="None" Loader="/ZTE/ZTEFamily_8Gen3Pad_devprg" Digest="" Description="骁龙8Gen3" />
+      <Model Name="红魔电竞平板3Pro" Storage="UFS" Auth="None" Loader="/ZTE/ZTEFamily_8ElitePad_devprg" Digest="" Description="骁龙8至尊版" />
     </Series>
     <Series Name="红魔其他系列">
       <Model Name="努比亚红魔(NX609J)" Storage="UFS" Auth="None" Loader="/ZTE/Nubia_RedMagic_devprg" Digest="" Description="骁龙835" />
