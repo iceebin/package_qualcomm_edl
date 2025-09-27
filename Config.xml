@@ -53,7 +53,7 @@
       <Model Name="小米5" Storage="EMMC" Auth="None" Loader="/Xiaomi/Xiaomi5_devprg" Digest="" Description="" />
     </Series>
     <Series Name="红米Note系列">
-      <Model Name="红米Note1LTE(dior)" Storage="EMMC" Auth="None" Loader="/Xiaomi/RedmiNote1LTE_devprg" Digest="" Description="" />
+      <Model Name="红米Note1LTE(dior)" Storage="EMMC" Auth="None" Loader="/Qualcomm/MSM8928.mbn" Digest="" Description="MSM8928" />
     </Series>
   </Brand>
   <!-- 华为荣耀 -->
@@ -403,6 +403,7 @@
       <Model Name="黑鲨4" Storage="UFS" Auth="Xiaomi" Loader="/BlackShark/BlackShark4_devprg" Digest="" Description="" />
       <Model Name="黑鲨4S" Storage="UFS" Auth="Xiaomi" Loader="/BlackShark/BlackShark4_devprg" Digest="" Description="" />
       <Model Name="黑鲨5" Storage="UFS" Auth="Xiaomi" Loader="/BlackShark/BlackShark4_devprg" Digest="" Description="" />
+      <Model Name="黑鲨6Pro工程机(M4)" Storage="UFS" Auth="None" Loader="/Qualcomm/sm8550.melf" Digest="" Description="" />
     </Series>
   </Brand>
   <!-- 华硕ROG -->
@@ -499,9 +500,10 @@
   <!-- 步步高 -->
   <Brand Name="步步高">
     <Series Name="步步高家教机">
-      <Model Name="S5" Storage="EMMC" Auth="None" Loader="/BBK/S5_devprg" Digest="" Description="骁龙660公版机" />
-      <Model Name="S6" Storage="UFS" Auth="None" Loader="/BBK/S6_devprg" Digest="" Description="骁龙730G公版机" />
-      <Model Name="T3" Storage="UFS" Auth="None" Loader="/BBK/S6_devprg" Digest="" Description="骁龙730G公版机" />
+      <Model Name="S5" Storage="EMMC" Auth="None" Loader="/BBK/BBKCommon_660_devprg" Digest="" Description="骁龙660公版机" />
+      <Model Name="S6" Storage="UFS" Auth="None" Loader="/BBK/BBKCommon_730G_devprg" Digest="" Description="骁龙730G公版机" />
+      <Model Name="S7(P22NH210和P23NH210)" Storage="UFS" Auth="None" Loader="/BBK/BBKCommon_730G_devprg" Digest="" Description="骁龙730G公版机" />
+      <Model Name="T3" Storage="UFS" Auth="None" Loader="/BBK/BBKCommon_730G_devprg" Digest="" Description="骁龙730G公版机" />
     </Series>
   </Brand>
   <!-- 小天才 -->
@@ -536,48 +538,60 @@
   <!-- 公版机未熔丝 -->
   <Brand Name="公版机未熔丝">
     <Series Name="公版通用">
-      <Model Name="骁龙200 MSM8210" Storage="AUTO" Auth="None" Loader="/Qualcomm/MSM8210.mbn" Digest="" Description="" />
-      <Model Name="骁龙210 MSM8909" Storage="AUTO" Auth="None" Loader="/Qualcomm/MSM8909.mbn" Digest="" Description="" />
-      <Model Name="骁龙410 MSM8916" Storage="AUTO" Auth="None" Loader="/Qualcomm/MSM8916.mbn" Digest="" Description="" />
-      <Model Name="骁龙425 MSM8917" Storage="AUTO" Auth="None" Loader="/Qualcomm/MSM8917.mbn" Digest="" Description="" />
-      <Model Name="骁龙400 MSM8926" Storage="AUTO" Auth="None" Loader="/Qualcomm/MSM8926.mbn" Digest="" Description="" />
-      <Model Name="骁龙400 MSM8928" Storage="AUTO" Auth="None" Loader="/Qualcomm/MSM8928.mbn" Digest="" Description="" />
-      <Model Name="骁龙415 MSM8929" Storage="AUTO" Auth="None" Loader="/Qualcomm/MSM8929.mbn" Digest="" Description="" />
-      <Model Name="骁龙400 MSM8930" Storage="AUTO" Auth="None" Loader="/Qualcomm/MSM8930.mbn" Digest="" Description="" />
-      <Model Name="骁龙615 MSM8936" Storage="AUTO" Auth="None" Loader="/Qualcomm/MSM8936.mbn" Digest="" Description="" />
-      <Model Name="骁龙430 MSM8937" Storage="AUTO" Auth="None" Loader="/Qualcomm/MSM8937.mbn" Digest="" Description="" />
-      <Model Name="骁龙617 MSM8939" Storage="AUTO" Auth="None" Loader="/Qualcomm/MSM8939.mbn" Digest="" Description="" />
-      <Model Name="骁龙615 MSM8952" Storage="AUTO" Auth="None" Loader="/Qualcomm/MSM8952.mbn" Digest="" Description="" />
-      <Model Name="骁龙615 MSM8953" Storage="AUTO" Auth="None" Loader="/Qualcomm/MSM8953.mbn" Digest="" Description="" />
-      <Model Name="骁龙800 MSM8974" Storage="AUTO" Auth="None" Loader="/Qualcomm/MSM8974.mbn" Digest="" Description="" />
-      <Model Name="骁龙652/653 MSM8976" Storage="AUTO" Auth="None" Loader="/Qualcomm/MSM8976.mbn" Digest="" Description="" />
-      <Model Name="骁龙810 MSM8992" Storage="AUTO" Auth="None" Loader="/Qualcomm/MSM8992.mbn" Digest="" Description="" />
-      <Model Name="骁龙810 prog_emmc_firehose_8992_lite" Storage="AUTO" Auth="None" Loader="/Qualcomm/prog_emmc_firehose_8992_lite.mbn" Digest="" Description="" />
-      <Model Name="骁龙810 MSM8994" Storage="AUTO" Auth="None" Loader="/Qualcomm/MSM8994.mbn" Digest="" Description="" />
-      <Model Name="骁龙820/821 MSM8996" Storage="AUTO" Auth="None" Loader="/Qualcomm/MSM8996.mbn" Digest="" Description="" />
-      <Model Name="骁龙821 MSM8996pro" Storage="AUTO" Auth="None" Loader="/Qualcomm/MSM8996pro_1_fhprg_peek.bin" Digest="" Description="" />
-      <Model Name="骁龙821 MSM8996pro" Storage="AUTO" Auth="None" Loader="/Qualcomm/MSM8996pro_2_fhprg_peek.bin" Digest="" Description="" />
-      <Model Name="骁龙200 MSM8x10" Storage="AUTO" Auth="None" Loader="/Qualcomm/MSM8x10.mbn" Digest="" Description="" />
-      <Model Name="骁龙888 SC8180x" Storage="AUTO" Auth="None" Loader="/Qualcomm/SC8180x_FHPRG.bin" Digest="" Description="" />
-      <Model Name="骁龙765 SD765" Storage="AUTO" Auth="None" Loader="/Qualcomm/SD765_fhprg.bin" Digest="" Description="" />
-      <Model Name="骁龙630 SDM630" Storage="AUTO" Auth="None" Loader="/Qualcomm/SDM630_fhprg_asus_peek.bin" Digest="" Description="" />
-      <Model Name="骁龙636 SDM636" Storage="AUTO" Auth="None" Loader="/Qualcomm/SDM636_fhprg_bqx2_peek.bin" Digest="" Description="" />
-      <Model Name="骁龙660 SDM660" Storage="AUTO" Auth="None" Loader="/Qualcomm/SDM660_1_fhprg_peek.bin" Digest="" Description="" />
-      <Model Name="骁龙660 SDM660" Storage="AUTO" Auth="None" Loader="/Qualcomm/SDM660_2_fhprg.bin" Digest="" Description="" />
-      <Model Name="骁龙660 SDM660" Storage="AUTO" Auth="None" Loader="/Qualcomm/SDM660_3_fhprg_peek.bin" Digest="" Description="" />
-      <Model Name="骁龙660 SDM660" Storage="AUTO" Auth="None" Loader="/Qualcomm/SDM660_4_fhprg_peek.bin" Digest="" Description="" />
-      <Model Name="骁龙662 SDM662" Storage="AUTO" Auth="None" Loader="/Qualcomm/SDM662_FHPRG.bin" Digest="" Description="" />
-      <Model Name="骁龙710 SDM710" Storage="AUTO" Auth="None" Loader="/Qualcomm/SDM710_fhprg.bin" Digest="" Description="" />
-      <Model Name="骁龙835 SDM835" Storage="AUTO" Auth="None" Loader="/Qualcomm/SDM835_1_fhprg_peek.bin" Digest="" Description="" />
-      <Model Name="骁龙835 SDM835" Storage="AUTO" Auth="None" Loader="/Qualcomm/SDM835_2_fhprg_peek.bin" Digest="" Description="" />
-      <Model Name="骁龙845/850 SDM845/SDM850/SDA845" Storage="AUTO" Auth="None" Loader="/Qualcomm/SDM845_SDM850_SDA845_1_fhprg.bin" Digest="" Description="" />
-      <Model Name="骁龙845/850 SDM845/SDM850/SDA845" Storage="AUTO" Auth="None" Loader="/Qualcomm/SDM845_SDM850_SDA845_2_fhprg.bin" Digest="" Description="" />
-      <Model Name="骁龙845/850 SDM845/SDM850/SDA845" Storage="AUTO" Auth="None" Loader="/Qualcomm/SDM845_SDM850_SDA845_3_fhprg.bin" Digest="" Description="" />
-      <Model Name="骁龙845/850 SDM845/SDM850/SDA845" Storage="AUTO" Auth="None" Loader="/Qualcomm/SDM845_SDM850_SDA845_4_fhprg.bin" Digest="" Description="" />
-      <Model Name="骁龙855 SDM855" Storage="AUTO" Auth="None" Loader="/Qualcomm/SDM855_fhprg.bin" Digest="" Description="" />
-      <Model Name="骁龙X55 SDX55" Storage="AUTO" Auth="None" Loader="/Qualcomm/SDX55_fhprg.bin" Digest="" Description="" />
-      <Model Name="骁龙888 SM8350" Storage="AUTO" Auth="None" Loader="/Qualcomm/SM8350_firehoseRM6R.elf" Digest="" Description="" />
-      <Model Name="高通QCA4020 prog_spinor_firehose" Storage="AUTO" Auth="None" Loader="/Qualcomm/prog_spinor_firehose_qca4020_lite_m4_.mbn" Digest="" Description="" /> 
+      <Model Name="MSM8x10 骁龙200 " Storage="AUTO" Auth="None" Loader="/Qualcomm/MSM8x10.mbn" Digest="" Description="" />
+      <Model Name="MSM8210 骁龙200" Storage="AUTO" Auth="None" Loader="/Qualcomm/MSM8210.mbn" Digest="" Description="" />
+      <Model Name="MSM8909 骁龙210 " Storage="AUTO" Auth="None" Loader="/Qualcomm/MSM8909.mbn" Digest="" Description="" />
+      <Model Name="MSM8916 骁龙410 " Storage="AUTO" Auth="None" Loader="/Qualcomm/MSM8916.mbn" Digest="" Description="" />
+      <Model Name="MSM8917 骁龙425 " Storage="AUTO" Auth="None" Loader="/Qualcomm/MSM8917.mbn" Digest="" Description="" />
+      <Model Name="MSM8926 骁龙400 " Storage="AUTO" Auth="None" Loader="/Qualcomm/MSM8926.mbn" Digest="" Description="" />
+      <Model Name="MSM8928 骁龙400 " Storage="AUTO" Auth="None" Loader="/Qualcomm/MSM8928.mbn" Digest="" Description="" />
+      <Model Name="MSM8929 骁龙415 " Storage="AUTO" Auth="None" Loader="/Qualcomm/MSM8929.mbn" Digest="" Description="" />
+      <Model Name="MSM8930 骁龙400 " Storage="AUTO" Auth="None" Loader="/Qualcomm/MSM8930.mbn" Digest="" Description="" />
+      <Model Name="MSM8936 骁龙615 " Storage="AUTO" Auth="None" Loader="/Qualcomm/MSM8936.mbn" Digest="" Description="" />
+      <Model Name="MSM8937 骁龙430 " Storage="AUTO" Auth="None" Loader="/Qualcomm/MSM8937.mbn" Digest="" Description="" />
+      <Model Name="MSM8939 骁龙617 " Storage="AUTO" Auth="None" Loader="/Qualcomm/MSM8939.mbn" Digest="" Description="" />
+      <Model Name="MSM8952 骁龙615 " Storage="AUTO" Auth="None" Loader="/Qualcomm/MSM8952.mbn" Digest="" Description="" />
+      <Model Name="MSM8953 骁龙615 " Storage="AUTO" Auth="None" Loader="/Qualcomm/MSM8953.mbn" Digest="" Description="" />
+      <Model Name="MSM8974 骁龙800 " Storage="AUTO" Auth="None" Loader="/Qualcomm/MSM8974.mbn" Digest="" Description="" />
+      <Model Name="MSM8976 骁龙652/653 " Storage="AUTO" Auth="None" Loader="/Qualcomm/MSM8976.mbn" Digest="" Description="" />
+      <Model Name="MSM8992 骁龙810 MSM8992.mbn" Storage="AUTO" Auth="None" Loader="/Qualcomm/MSM8992.mbn" Digest="" Description="" />
+      <Model Name="MSM8992 骁龙810 prog_emmc_firehose_8992_lite" Storage="AUTO" Auth="None" Loader="/Qualcomm/prog_emmc_firehose_8992_lite.mbn" Digest="" Description="" />
+      <Model Name="MSM8994 骁龙810 " Storage="AUTO" Auth="None" Loader="/Qualcomm/MSM8994.mbn" Digest="" Description="" />
+      <Model Name="MSM8996 骁龙820/821 prog_ufs_firehose_msm8996.elf" Storage="AUTO" Auth="None" Loader="/Qualcomm/prog_ufs_firehose_msm8996.elf" Digest="" Description="" />
+      <Model Name="MSM8996 骁龙820/821 MSM8996.mbn" Storage="AUTO" Auth="None" Loader="/Qualcomm/MSM8996.mbn" Digest="" Description="" />
+      <Model Name="MSM8996pro 骁龙821 MSM8996pro_1_fhprg_peek.bin" Storage="AUTO" Auth="None" Loader="/Qualcomm/MSM8996pro_1_fhprg_peek.bin" Digest="" Description="" />
+      <Model Name="MSM8996pro 骁龙821 MSM8996pro_2_fhprg_peek.bin" Storage="AUTO" Auth="None" Loader="/Qualcomm/MSM8996pro_2_fhprg_peek.bin" Digest="" Description="" />
+      <Model Name="MSM8998 骁龙835 prog_ufs_firehose_msm8998.elf" Storage="AUTO" Auth="None" Loader="/Qualcomm/prog_ufs_firehose_msm8998.elf" Digest="" Description="" />
+      <Model Name="MSM8998 骁龙835 SDM835_1_fhprg_peek.bin" Storage="AUTO" Auth="None" Loader="/Qualcomm/SDM835_1_fhprg_peek.bin" Digest="" Description="" />
+      <Model Name="MSM8998 骁龙835 SDM835_2_fhprg_peek.bin" Storage="AUTO" Auth="None" Loader="/Qualcomm/SDM835_2_fhprg_peek.bin" Digest="" Description="" />
+      <Model Name="SDM630 骁龙630 " Storage="AUTO" Auth="None" Loader="/Qualcomm/SDM630_fhprg_asus_peek.bin" Digest="" Description="" />
+      <Model Name="SDM636 骁龙636 " Storage="AUTO" Auth="None" Loader="/Qualcomm/SDM636_fhprg_bqx2_peek.bin" Digest="" Description="" />
+      <Model Name="SDM660 骁龙660 prog_emmc_firehose_sdm660.mbn" Storage="AUTO" Auth="None" Loader="/Qualcomm/prog_emmc_firehose_sdm660.mbn" Digest="" Description="" />
+      <Model Name="SDM660 骁龙660 SDM660_1_fhprg_peek.bin" Storage="AUTO" Auth="None" Loader="/Qualcomm/SDM660_1_fhprg_peek.bin" Digest="" Description="" />
+      <Model Name="SDM660 骁龙660 SDM660_2_fhprg.bin" Storage="AUTO" Auth="None" Loader="/Qualcomm/SDM660_2_fhprg.bin" Digest="" Description="" />
+      <Model Name="SDM660 骁龙660 SDM660_3_fhprg_peek.bin" Storage="AUTO" Auth="None" Loader="/Qualcomm/SDM660_3_fhprg_peek.bin" Digest="" Description="" />
+      <Model Name="SDM660 骁龙660 SDM660_4_fhprg_peek.bin" Storage="AUTO" Auth="None" Loader="/Qualcomm/SDM660_4_fhprg_peek.bin" Digest="" Description="" />
+      <Model Name="SDM662 骁龙662" Storage="AUTO" Auth="None" Loader="/Qualcomm/SDM662_FHPRG.bin" Digest="" Description="" />
+      <Model Name="SDM710 骁龙710 " Storage="AUTO" Auth="None" Loader="/Qualcomm/SDM710_fhprg.bin" Digest="" Description="" />
+      <Model Name="SD765 骁龙765 " Storage="AUTO" Auth="None" Loader="/Qualcomm/SD765_fhprg.bin" Digest="" Description="" />
+      <Model Name="SDM845 骁龙845 prog_ufs_firehose_sdm845.elf" Storage="AUTO" Auth="None" Loader="/Qualcomm/prog_ufs_firehose_sdm845.elf" Digest="" Description="" />
+      <Model Name="SDM845/SDM850/SDA845 骁龙845/850 SDM845_SDM850_SDA845_1_fhprg.bin" Storage="AUTO" Auth="None" Loader="/Qualcomm/SDM845_SDM850_SDA845_1_fhprg.bin" Digest="" Description="" />
+      <Model Name="SDM845/SDM850/SDA845 骁龙845/850 SDM845_SDM850_SDA845_2_fhprg.bin" Storage="AUTO" Auth="None" Loader="/Qualcomm/SDM845_SDM850_SDA845_2_fhprg.bin" Digest="" Description="" />
+      <Model Name="SDM845/SDM850/SDA845 骁龙845/850 SDM845_SDM850_SDA845_3_fhprg.bin" Storage="AUTO" Auth="None" Loader="/Qualcomm/SDM845_SDM850_SDA845_3_fhprg.bin" Digest="" Description="" />
+      <Model Name="SDM845/SDM850/SDA845 骁龙845/850 SDM845_SDM850_SDA845_4_fhprg.bin" Storage="AUTO" Auth="None" Loader="/Qualcomm/SDM845_SDM850_SDA845_4_fhprg.bin" Digest="" Description="" />
+      <Model Name="SDM855 骁龙855 prog_ufs_firehose_sdm855_ddr.elf" Storage="AUTO" Auth="None" Loader="/Qualcomm/prog_ufs_firehose_sdm855_ddr.elf" Digest="" Description="" />
+      <Model Name="SDM855 骁龙855 SDM855_fhprg.bin" Storage="AUTO" Auth="None" Loader="/Qualcomm/SDM855_fhprg.bin" Digest="" Description="" />
+      <Model Name="SDX55 骁龙X55 " Storage="AUTO" Auth="None" Loader="/Qualcomm/SDX55_fhprg.bin" Digest="" Description="" />
+      <Model Name="SM7150 骁龙730G" Storage="AUTO" Auth="None" Loader="/Qualcomm/prog_ufs_firehose_sm7150_ddr.elf" Digest="" Description="" />
+      <Model Name="SM7225 骁龙750G" Storage="AUTO" Auth="None" Loader="/Qualcomm/qrd750.elf" Digest="" Description="" />
+      <Model Name="SM8250 骁龙865 " Storage="AUTO" Auth="None" Loader="/Qualcomm/prog_ufs_firehose_sm8250.elf" Digest="" Description="" />
+      <Model Name="SM8350 骁龙888 prog_ufs_firehose_sm8350.elf" Storage="AUTO" Auth="None" Loader="/Qualcomm/prog_ufs_firehose_sm8350.elf" Digest="" Description="" />
+      <Model Name="SM8350 骁龙888 SM8350_firehoseRM6R.elf" Storage="AUTO" Auth="None" Loader="/Qualcomm/SM8350_firehoseRM6R.elf" Digest="" Description="" />
+      <Model Name="SC8180x 骁龙888 " Storage="AUTO" Auth="None" Loader="/Qualcomm/SC8180x_FHPRG.bin" Digest="" Description="" />
+      <Model Name="SM8450 骁龙8Gen1 " Storage="AUTO" Auth="None" Loader="/Qualcomm/prog_ufs_firehose_sm8450.elf" Digest="" Description="" />
+      <Model Name="SM8475 骁龙8+(骁龙8+Gen1)" Storage="AUTO" Auth="None" Loader="/Qualcomm/prog_ufs_firehose_sm8475.elf" Digest="" Description="" />
+      <Model Name="SM8550 骁龙8Gen2 " Storage="AUTO" Auth="None" Loader="/Qualcomm/sm8550.melf" Digest="" Description="" />
+      <Model Name="QCA4020 prog_spinor_firehose_qca4020_lite_m4_.mbn" Storage="AUTO" Auth="None" Loader="/Qualcomm/prog_spinor_firehose_qca4020_lite_m4_.mbn" Digest="" Description="" /> 
     </Series>
   </Brand>
 
