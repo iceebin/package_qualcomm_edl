@@ -361,7 +361,7 @@
     </Series>
   </Brand>
   <!-- 红魔 -->
-  <Brand Name="红魔10">
+  <Brand Name="红魔">
     <Series Name="红魔数字系列">
       <Model Name="红魔Mars" Storage="UFS" Auth="None" Loader="/ZTE/RedMagic_Mars_devprg" Digest="" Description="骁龙845" />
       <Model Name="红魔3" Storage="UFS" Auth="None" Loader="/ZTE/RedMagicCommon_855_devprg" Digest="" Description="骁龙855" />
