@@ -410,6 +410,7 @@
   <Brand Name="华硕ROG">
     <Series Name="ROG">
       <Model Name="ROG2" Storage="UFS" Auth="None" Loader="/ROG/ROG2_devprg" Digest="" Description="" />
+      <Model Name="ROG5" Storage="UFS" Auth="None" Loader="/ROG/ROG5_devprg" Digest="" Description="" />
     </Series>
   </Brand>
   <!-- 联想 拯救者 -->
