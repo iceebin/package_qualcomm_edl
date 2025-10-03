@@ -265,6 +265,7 @@
       <Model Name="vivo X9L" Storage="EMMC" Auth="None" Loader="/vivo/vivo_X9_devprg" Digest="" Description="骁龙625" />
       <Model Name="vivo X9Plus" Storage="EMMC" Auth="None" Loader="/vivo/vivo_X9Plus_devprg" Digest="" Description="骁龙652" />
       <Model Name="vivo X9PlusL" Storage="EMMC" Auth="None" Loader="/vivo/vivo_X9Plus_devprg" Digest="" Description="骁龙652" />
+      <Model Name="vivo X9S" Storage="EMMC" Auth="None" Loader="/vivo/vivo_X9S_devprg" Digest="" Description="骁龙652" />
       <Model Name="vivo X27 8G+128G版(骁龙675)(PD1838)(未测试)" Storage="UFS" Auth="None" Loader="/vivo/vivoCommon_675_devprg" Digest="" Description="骁龙675" />
       <Model Name="vivo XPlay5A" Storage="EMMC" Auth="None" Loader="/vivo/vivo_XPlay5A_devprg" Digest="" Description="骁龙652" />
     </Series>
