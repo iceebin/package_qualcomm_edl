@@ -413,6 +413,7 @@
     <Series Name="ROG">
       <Model Name="ROG2" Storage="UFS" Auth="None" Loader="/ROG/ROG2_devprg" Digest="" Description="" />
       <Model Name="ROG5" Storage="UFS" Auth="None" Loader="/ROG/ROG5_devprg" Digest="" Description="" />
+      <Model Name="ROG6" Storage="UFS" Auth="None" Loader="/ROG/ROG6_devprg" Digest="" Description="骁龙8+" />
     </Series>
   </Brand>
   <!-- 联想 拯救者 -->
