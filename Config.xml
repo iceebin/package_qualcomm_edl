@@ -469,6 +469,12 @@
       <Model Name="坚果R2" Storage="UFS" Auth="None" Loader="/Smartisan/Nut_R2_devprg" Digest="" Description="" />
     </Series>
   </Brand>
+  <!-- 360 -->
+  <Brand Name="360">
+    <Series Name="360 N系列">
+      <Model Name="N6Lite" Storage="EMMC" Auth="None" Loader="/360/360N6Lite_devprg" Digest="" Description="" />
+    </Series>
+  </Brand>
   <!-- LG -->
   <Brand Name="LG">
     <Series Name="LG系列">
