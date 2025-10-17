@@ -84,6 +84,7 @@
       <Model Name="HiNova9Pro" Storage="UFS" Auth="None" Loader="/Huawei/ZhiXuanCommon_778G_devprg" Digest="" Description="骁龙778G" />
       <Model Name="Nova9SE" Storage="UFS" Auth="None" Loader="/Huawei/HuaweiCommon_680_devprg" Digest="" Description="骁龙680" />
       <Model Name="HiNova9SE" Storage="UFS" Auth="None" Loader="/Huawei/HonorCommon_695_devprg" Digest="" Description="骁龙695" />
+      <Model Name="HiNova9Z" Storage="UFS" Auth="None" Loader="/Huawei/ZhiXuanCommon_690_devprg" Digest="" Description="骁龙690" />
       <Model Name="Nova10" Storage="UFS" Auth="None" Loader="/Huawei/HuaweiCommon_778G-4G_devprg" Digest="" Description="骁龙778G 4G" />
       <Model Name="HiNova10" Storage="UFS" Auth="None" Loader="/Huawei/ZhiXuanCommon_778G_devprg" Digest="" Description="骁龙778G" />
       <Model Name="Nova10Pro" Storage="UFS" Auth="None" Loader="/Huawei/HuaweiCommon_778G-4G_devprg" Digest="" Description="骁龙778G 4G" />
@@ -139,6 +140,9 @@
       <Model Name="MatePad11(DBY-W09)" Storage="UFS" Auth="None" Loader="/Huawei/HuaweiCommon_865870_devprg" Digest="" Description="骁龙865" />
       <Model Name="MatePadPro10.8(MRR-W29)" Storage="UFS" Auth="None" Loader="/Huawei/HuaweiCommon_865870_devprg" Digest="" Description="骁龙870" />
       <Model Name="MatePadPro11 2022(GOT-W29)" Storage="UFS" Auth="None" Loader="/Huawei/HuaweiCommon_865870_devprg" Digest="" Description="骁龙870" />
+    </Series>
+    <Series Name="其他系列">
+      <Model Name="雷鸟FF1" Storage="UFS" Auth="None" Loader="/Huawei/ZhiXuanCommon_690_devprg" Digest="" Description="骁龙690" />
     </Series>
     <Series Name="荣耀数字系列">
       <Model Name="荣耀6A" Storage="EMMC" Auth="None" Loader="/Huawei/Common_430-2_devprg" Digest="" Description="骁龙430" />
@@ -584,6 +588,12 @@
   <Brand Name="柔宇ROYOLE">
     <Series Name="FlexPai系列">
       <Model Name="FlexPai 2" Storage="UFS" Auth="None" Loader="/ROYOLE/FlexPai2_devprg" Digest="" Description="" />
+    </Series>
+  </Brand>
+  <!-- 雷鸟 -->
+  <Brand Name="雷鸟">
+    <Series Name="雷鸟系列">
+      <Model Name="雷鸟FF1" Storage="UFS" Auth="None" Loader="/Huawei/ZhiXuanCommon_690_devprg" Digest="" Description="骁龙690" />
     </Series>
   </Brand>
   <!-- 公版机未熔丝 -->
