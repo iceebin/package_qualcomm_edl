@@ -470,6 +470,13 @@
       <Model Name="拯救者Y90(L71061)" Storage="UFS" Auth="None" Loader="/Lenovo/Legion_Y90_devprg" Digest="" Description="L71061" />
     </Series>
   </Brand>
+  <!-- Nothing Phone -->
+  <Brand Name="Nothing Phone">
+    <Series Name="Nothing Phone">
+      <Model Name="Nothing1" Storage="UFS" Auth="None" Loader="/Nothing/Nothing1_devprg" Digest="" Description="引导文件分享者：酷安@什么软件还要取名" />
+      <Model Name="[未测试]Nothing2" Storage="UFS" Auth="None" Loader="/Nothing/Nothing2_devprg" Digest="" Description="引导文件分享者：酷安@什么软件还要取名" />
+    </Series>
+  </Brand>
   <!-- 锤子 坚果 -->
   <Brand Name="锤子坚果">
     <Series Name="锤子系列">
