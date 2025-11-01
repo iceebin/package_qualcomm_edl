@@ -500,6 +500,7 @@
   <Brand Name="360">
     <Series Name="360 N系列">
       <Model Name="N6Lite" Storage="EMMC" Auth="None" Loader="/360/360N6Lite_devprg" Digest="" Description="" />
+      <Model Name="N7Pro" Storage="EMMC" Auth="None" Loader="/360/360N7Pro_devprg" Digest="" Description="" />
     </Series>
   </Brand>
   <!-- LG -->
