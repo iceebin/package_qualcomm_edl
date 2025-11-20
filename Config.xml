@@ -226,10 +226,19 @@
     <Series Name="OPPO真我通用">
       <Model Name="665" Storage="UFS" Auth="None" Loader="/OPLUS/OPPOCommon_665_devprg" Digest="" Description="OPPO A5可能需要从官方Recovery连续点击版本号进入9008才能正常刷机" />
       <Model Name="665-2" Storage="UFS" Auth="None" Loader="/OPLUS/OPPOCommon_665-2_devprg" Digest="" Description="OPPO A11可能可用" />
-      <Model Name="710" Storage="UFS" Auth="OPPO_PATCHPBL" Loader="/OPLUS/OPPOCommon_710_devprg" Digest="" Description="" />
-      <Model Name="750G" Storage="UFS" Auth="None" Loader="/OPLUS/OPPOCommon_765G_devprg" Digest="" Description="" />
+      <Model Name="670[未测试]" Storage="UFS" Auth="None" Loader="/OPLUS/OPPOCommon_710-2_devprg" Digest="" Description="" />
+      <Model Name="675[未测试]" Storage="UFS" Auth="None" Loader="/OPLUS/OPPOCommon_765G_devprg" Digest="" Description="" />
+      <Model Name="678[未测试]" Storage="UFS" Auth="None" Loader="/OPLUS/OPPOCommon_765G_devprg" Digest="" Description="" />
+      <Model Name="710-1" Storage="UFS" Auth="OPPO_PATCHPBL" Loader="/OPLUS/OPPOCommon_710-1_devprg" Digest="" Description="" />
+      <Model Name="710-2" Storage="UFS" Auth="None" Loader="/OPLUS/OPPOCommon_710-2_devprg" Digest="" Description="" />
+      <Model Name="712[未测试]" Storage="UFS" Auth="None" Loader="/OPLUS/OPPOCommon_710-2_devprg" Digest="" Description="" />
+      <Model Name="730[未测试]" Storage="UFS" Auth="None" Loader="/OPLUS/OPPOCommon_765G_devprg" Digest="" Description="" />
+      <Model Name="730G[未测试]" Storage="UFS" Auth="None" Loader="/OPLUS/OPPOCommon_765G_devprg" Digest="" Description="" />
+      <Model Name="732[未测试]" Storage="UFS" Auth="None" Loader="/OPLUS/OPPOCommon_765G_devprg" Digest="" Description="" />
+      <Model Name="750G[未测试]" Storage="UFS" Auth="None" Loader="/OPLUS/OPPOCommon_765G_devprg" Digest="" Description="" />
+      <Model Name="765[未测试]" Storage="UFS" Auth="None" Loader="/OPLUS/OPPOCommon_765G_devprg" Digest="" Description="" />
       <Model Name="765G" Storage="UFS" Auth="None" Loader="/OPLUS/OPPOCommon_765G_devprg" Digest="" Description="" />
-      <Model Name="768G" Storage="UFS" Auth="None" Loader="/OPLUS/OPPOCommon_765G_devprg" Digest="" Description="" />
+      <Model Name="768G[未测试]" Storage="UFS" Auth="None" Loader="/OPLUS/OPPOCommon_765G_devprg" Digest="" Description="" />
       <Model Name="778" Storage="UFS" Auth="None" Loader="/OPLUS/OPPORealmeCommon_778_devprg" Digest="" Description="" />
       <Model Name="782" Storage="UFS" Auth="None" Loader="/OPLUS/OPPORealmeCommon_778_devprg" Digest="" Description="" />
       <Model Name="855" Storage="UFS" Auth="None" Loader="/OPLUS/OPPOCommon_855_devprg" Digest="" Description="" />
