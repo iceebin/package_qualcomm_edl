@@ -673,6 +673,7 @@
       <Model Name="SM8475 骁龙8+(骁龙8+Gen1)" Storage="AUTO" Auth="None" Loader="/Common/prog_ufs_firehose_sm8475.elf" Digest="" Description="" />
       <Model Name="SM8550 骁龙8Gen2 " Storage="AUTO" Auth="None" Loader="/Common/sm8550.melf" Digest="" Description="" />
       <Model Name="QCA4020 prog_spinor_firehose_qca4020_lite_m4_.mbn" Storage="AUTO" Auth="None" Loader="/Common/prog_spinor_firehose_qca4020_lite_m4_.mbn" Digest="" Description="" /> 
+      <Model Name="QCM4290 prog_firehose_qcm4290_ddr.elf" Storage="AUTO" Auth="None" Loader="/Common/prog_firehose_qcm4290_ddr.elf" Digest="" Description="" /> 
     </Series>
   </Brand>
 
