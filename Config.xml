@@ -217,6 +217,7 @@
     <Series Name="魅族其他系列">
       <Model Name="魅族M15" Storage="EMMC" Auth="None" Loader="/Meizu/MeizuM15_devprg" Digest="" Description="" />
       <Model Name="魅族Note8" Storage="EMMC" Auth="None" Loader="/Meizu/MeizuNote8_devprg" Digest="" Description="" />
+      <Model Name="魅族Note16Pro" Storage="UFS" Auth="None" Loader="/Meizu/MeizuNote16Pro_devprg" Digest="" Description="" />
       <Model Name="魅族X8" Storage="EMMC" Auth="None" Loader="/Meizu/MeizuX8_devprg" Digest="" Description="" />
       <Model Name="魅族Lucky08" Storage="UFS" Auth="None" Loader="/Meizu/MeizuLucky08_devprg" Digest="" Description="" />
     </Series>
