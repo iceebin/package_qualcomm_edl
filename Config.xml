@@ -240,6 +240,8 @@
       <Model Name="765[未测试]" Storage="UFS" Auth="None" Loader="/OPLUS/OPPOCommon_765G_devprg" Digest="" Description="" />
       <Model Name="765G" Storage="UFS" Auth="None" Loader="/OPLUS/OPPOCommon_765G_devprg" Digest="" Description="" />
       <Model Name="768G[未测试]" Storage="UFS" Auth="None" Loader="/OPLUS/OPPOCommon_765G_devprg" Digest="" Description="" />
+      <Model Name="750G-765-765G-768G-设置启动LUN专用-1" Storage="UFS" Auth="None" Loader="/OPLUS/OPPOCommon_765G-SetBootableStorageDrive-1_devprg" Digest="" Description="设置启动LUN专用。上面的免授权引导不支持设置启动LUN命令，请选择此引导后，重新进入9008连接设备，在高级功能中设置启动LUN。" />
+      <Model Name="750G-765-765G-768G-设置启动LUN专用-2" Storage="UFS" Auth="None" Loader="/OPLUS/OPPOCommon_765G-SetBootableStorageDrive-2_devprg" Digest="" Description="设置启动LUN专用。上面的免授权引导不支持设置启动LUN命令，请选择此引导后，重新进入9008连接设备，在高级功能中设置启动LUN。" />
       <Model Name="778" Storage="UFS" Auth="None" Loader="/OPLUS/OPPORealmeCommon_778_devprg" Digest="" Description="" />
       <Model Name="782" Storage="UFS" Auth="None" Loader="/OPLUS/OPPORealmeCommon_778_devprg" Digest="" Description="" />
       <Model Name="855" Storage="UFS" Auth="None" Loader="/OPLUS/OPPOCommon_855_devprg" Digest="" Description="" />
