@@ -1,0 +1,31 @@
+name: Sync upstream
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch repository metadata
+        id: repo
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          info=$(gh api repos/${{ github.repository }})
+          echo "fork=$(echo "$info" | jq -r '.fork')" >> "$GITHUB_OUTPUT"
+          echo "parent=$(echo "$info" | jq -r '.parent.full_name // \"\"')" >> "$GITHUB_OUTPUT"
+      - name: Sync with upstream
+        if: steps.repo.outputs.fork == 'true' && steps.repo.outputs.parent != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PARENT: ${{ steps.repo.outputs.parent }}
+        run: gh repo sync ${{ github.repository }} --source "$PARENT" --force
+      - name: Skip sync
+        if: steps.repo.outputs.fork != 'true' || steps.repo.outputs.parent == ''
+        run: echo "Repository is not a fork or upstream unavailable; skipping sync."
